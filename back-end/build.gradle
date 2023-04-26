@@ -91,12 +91,18 @@ processResources {
   dependsOn "copyWebApp"
 }
 
-
-task copyWebApp(type: Copy) {
-    dependsOn "buildReact"
-    from "$webappDir/build"
-    into "$projectDir/src/main/resources/static"
-} 
+task installReact(type: Exec) {
+  workingDir "$webappDir"
+  inputs.dir "$webappDir"
+  group = BasePlugin.BUILD_GROUP
+  if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+    commandLine "npm.cmd", "audit", "fix"
+    commandLine 'npm.cmd', 'install'
+  } else {
+    commandLine "npm", "audit", "fix"
+    commandLine 'npm', 'install'
+  }
+}
 
 task buildReact(type: Exec) {
   dependsOn "installReact"
@@ -110,15 +116,8 @@ task buildReact(type: Exec) {
   }
 }
 
-task installReact(type: Exec) {
-  workingDir "$webappDir"
-  inputs.dir "$webappDir"
-  group = BasePlugin.BUILD_GROUP
-  if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-    commandLine "npm.cmd", "audit", "fix"
-    commandLine 'npm.cmd', 'install'
-  } else {
-    commandLine "npm", "audit", "fix"
-    commandLine 'npm', 'install'
-  }
-}
+task copyWebApp(type: Copy) {
+    dependsOn "buildReact"
+    from "$webappDir/build"
+    into "$projectDir/src/main/resources/static"
+} 
