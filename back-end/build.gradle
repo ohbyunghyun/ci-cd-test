@@ -104,16 +104,10 @@ task installReact(type: Exec) {
   }
 }
 
-task buildReact(type: Exec) {
+task buildReact(type: NpmTask) {
   dependsOn "installReact"
   workingDir "$webappDir"
-  inputs.dir "$webappDir"
-  group = BasePlugin.BUILD_GROUP
-  if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-    commandLine 'npm.cmd', 'run-script', 'build'
-  } else {
-    commandLine 'npm', 'run-script', 'build'
-  }
+  args = ["run", "build"]
 }
 
 task copyWebApp(type: Copy) {
