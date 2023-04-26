@@ -91,27 +91,24 @@ processResources {
   dependsOn "copyWebApp"
 }
 
-task installReact(type: Exec) {
-  workingDir "$webappDir"
-  inputs.dir "$webappDir"
-  group = BasePlugin.BUILD_GROUP
-  if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-    commandLine "npm.cmd", "audit", "fix"
-    commandLine 'npm.cmd', 'install'
-  } else {
-    commandLine "npm", "audit", "fix"
-    commandLine 'npm', 'install'
-  }
+// npm install
+task appNpmInstall(type: NpmTask) {
+	workingDir = file("$webappDir")
+	args = ["install"]
 }
 
-task buildReact(type: NpmTask) {
-  dependsOn "installReact"
-  workingDir "$webappDir"
-  args = ["run", "build"]
+// npm build
+task npmBuild(type: NpmTask) {
+	workingDir = file("$webappDir")
+	args = ["run", "build"]
 }
 
+// 빌드된 결과 이동
 task copyWebApp(type: Copy) {
-    dependsOn "buildReact"
-    from "$webappDir/build"
-    into "$projectDir/src/main/resources/static"
-} 
+	from "front-end/build"
+	into 'build/resources/main/static/'
+}
+
+npmBuild.dependsOn appNpmInstall
+copyWebApp.dependsOn npmBuild
+compileJava.dependsOn copyWebApp
