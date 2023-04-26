@@ -1,0 +1,42 @@
+/*
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  xjustify-content: center;
+  align-items: center;
+  padding: 0.5%;
+}
+
+
+이 친구들 열면 다른페이지가 깨짐 왜지?????
+
+*/
+
+/* img {
+  padding: 0.1%;
+  padding-bottom: 5%;
+  width: 95%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image_row {
+  display: flex;
+}
+
+.image_col {
+  display: flex;
+  flex-direction: column;
+} */

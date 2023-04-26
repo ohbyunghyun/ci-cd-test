@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--aim-base-tone-down);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Color candidate */
+
+/* Color Theme Swatches in Hex */
+.PLNT-System-1-hex {
+  color: #636af2;
+}
+.PLNT-System-2-hex {
+  color: #2f3273;
+}
+.PLNT-System-3-hex {
+  color: #777df2;
+}
+.PLNT-System-4-hex {
+  color: #e9e9f2;
+}
+.PLNT-System-5-hex {
+  color: #0d0d0d;
+}
+
+/* Color Theme Swatches in Hex */
+.진한-보라-1-hex {
+  color: #c714a8;
+}
+.진한-보라-2-hex {
+  color: #9413cf;
+}
+.진한-보라-3-hex {
+  color: #4719b8;
+}
+.진한-보라-4-hex {
+  color: #1329cf;
+}
+.진한-보라-5-hex {
+  color: #126dc4;
+}
+
+.form-text {
+  color: var(--aim-help-warning);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--aim-base-tone) inset !important;
+  -webkit-text-fill-color: var(--aim-text-default) !important;
+}
+
+.blur-modal.modal.show {
+  opacity: 1;
+  backdrop-filter: blur(var(--aim-backdrop-blur));
+}
+
+.form-control::placeholder {
+  color: var(--aim-text-sub);
+}
+
+.profile-edit-nickname-icon,
+.progress-bar-success:hover,
+#small-profile,
+#setting-type-btn,
+.small-profile-nickname,
+.alarm-info-log {
+  cursor: pointer;
+}
+
+.setting-label {
+  font-size: 1.05rem;
+}
+
+.personalSetting-menu.nav-link {
+  color: var(--aim-text-sub);
+}
+
+.personalSetting-menu.nav-link.active {
+  color: var(--aim-text-default);
+}

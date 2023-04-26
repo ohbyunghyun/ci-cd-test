@@ -1,0 +1,121 @@
+:root {
+  /* color */
+
+  --aim-base-tone: #212529;
+  --aim-base-tone-up: #323539;
+  --aim-base-tone-down: #000000;
+  --aim-base-tone-sub: #737373;
+
+  --aim-base-alpa: #00000000;
+  --aim-fill-alpa: #000000ff;
+  --aim-harf-alpa: #00000088;
+  --aim-quarter-alpa: #00000044;
+  /* --aim-btn-default
+  --aim-btn-hover */
+
+  --aim-border: #a6a6a6;
+
+  /* ---------sub---------- */
+  --aim-emphasis-red: #e75656;
+
+  /* naver login */
+  --aim-fill-green: #03c75a;
+
+  /* text */
+  --aim-text-default: #edeeef;
+  --aim-text-sub: #7f7f7f;
+
+  --aim-text-href: #0d6efd;
+
+  /* font size */
+  --aim-small-font-size: 0.8rem;
+  --aim-nomal-font-size: 1.4rem;
+  --aim-large-font-size: 1.8rem;
+  --aim-larger-font-size: 2rem;
+  --aim-largest-font-size: 3rem;
+
+  /* font weight */
+
+  /* backdrop blur */
+  --aim-backdrop-blur: 10px;
+
+  --aim-help-warning: #dc3545;
+
+  --aim-git-icon-color: invert(100%);
+
+  --aim-btn-primary: #1329cf;
+  --aim-text-light: #e9e9f2;
+  --aim-text-dark: #0d0d0d;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1329cf;
+  --bs-btn-border-color: #1329cf;
+  --bs-btn-hover-bg: #2337d3;
+  --bs-btn-hover-border-color: #2337d3;
+  --bs-btn-active-bg: #6c38f0;
+  --bs-btn-active-border-color: #6c38f0;
+  --bs-btn-disabled-bg: #1329cf;
+  --bs-btn-disabled-border-color: #1329cf;
+}
+
+.btn-success {
+  --bs-btn-bg: #03c75a;
+  --bs-btn-border-color: #03c75a;
+  --bs-btn-hover-bg: #00b853;
+  --bs-btn-hover-border-color: #00b853;
+  --bs-btn-active-bg: #01a54b;
+  --bs-btn-active-border-color: #01a54b;
+  --bs-btn-disabled-bg: #03c75a;
+  --bs-btn-disabled-border-color: #03c75a;
+}
+
+/* 
+다크모드 스위치 패스
+#feed-modal-like css 용도 불명
+#feed-modal-inputbox border color 의미가 있나..?
+
+*/
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* #nav-bar, .modal, #body, #body-sub, #start-btn, #footer {
+  border: 2px white solid;
+} */

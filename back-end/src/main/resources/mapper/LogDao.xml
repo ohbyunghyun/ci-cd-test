@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bitcamp.app.dao.LogDao">
+
+  <resultMap type="log" id="logMap">
+    <id column="log_no" property="logNo"/>  
+    <result column="type_no" property="typeNo"/>
+    <result column="member_no" property="memberNo"/>
+    <result column="content_no" property="contentNo"/>
+    <result column="content" property="content"/>
+    <result column="read_flag" property="readFlag"/>
+    <result column="log_dt" property="recordDate"/>
+  </resultMap>
+  
+  <insert id="insert" parameterType="log">
+    insert into aim_log(type_no, member_no, content_no, content)
+    values (#{typeNo}, #{memberNo}, #{contentNo}, 
+      concat(ifnull(#{content}, ''), (select log_comment from aim_log_type where type_no = #{typeNo})))
+  </insert>      
+    
+  <select id="alarmList" parameterType="int" resultMap="logMap">
+    select * from aim_log
+    where type_no=11 and member_no in (select follower_no from aim_follow where following_no=#{memberNo})
+    union
+    select * from aim_log
+    where type_no=14 and content_no in (select board_no from aim_board where member_no=#{memberNo})
+    union
+    select * from aim_log
+    where type_no=21 and content_no in (select reply_no from aim_reply where board_no in (select board_no from aim_board where member_no=#{memberNo}))
+    union
+    select * from aim_log
+    where type_no=24 and content_no in (select reply_no from aim_reply where member_no=#{memberNo})
+    union
+    select * from aim_log
+    where type_no=31 and content_no=#{memberNo}
+    order by log_no DESC;
+  </select>
+  
+    <select id="publicAlarmList" parameterType="int" resultMap="logMap">
+    select * from aim_log
+    where type_no=11
+      and (select count(type_no) from aim_alarm_setting where type_no=11 and member_no=#{memberNo}) != 1 
+      and member_no in (select follower_no from aim_follow where following_no=#{memberNo})
+    union
+    select * from aim_log
+    where type_no=14 
+      and (select count(type_no) from aim_alarm_setting where type_no=14 and member_no=#{memberNo}) != 1 
+      and content_no in (select board_no from aim_board where member_no=#{memberNo})
+    union
+    select * from aim_log
+    where type_no=21
+      and (select count(type_no) from aim_alarm_setting where type_no=21 and member_no=#{memberNo}) != 1  
+      and content_no in (select reply_no from aim_reply where board_no in (select board_no from aim_board where member_no=#{memberNo}))
+    union
+    select * from aim_log
+    where type_no=24
+      and (select count(type_no) from aim_alarm_setting where type_no=24 and member_no=#{memberNo}) != 1  
+      and content_no in (select reply_no from aim_reply where member_no=#{memberNo})
+    union
+    select * from aim_log
+    where type_no=31 
+      and (select count(type_no) from aim_alarm_setting where type_no=31 and member_no=#{memberNo}) != 1 
+      and content_no=#{memberNo}
+    order by log_no DESC;
+  </select>
+  
+  
+  <update id="read" parameterType="int">
+    update aim_log
+    set 
+      read_flag=1    
+    where log_no=#{no}
+  </update>
+  
+  <update id="readAll" parameterType="int">
+		UPDATE aim_log 
+		JOIN (
+		    SELECT log_no FROM aim_log 
+		    WHERE type_no=11 AND member_no IN (
+		        SELECT follower_no FROM aim_follow WHERE following_no=#{memberNo}
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=14 AND content_no IN (
+		        SELECT board_no FROM aim_board WHERE member_no=#{memberNo}
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=21 AND content_no IN (
+		        SELECT reply_no FROM aim_reply WHERE board_no IN (
+		            SELECT board_no FROM aim_board WHERE member_no=#{memberNo}
+		        )
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=24 AND content_no IN (
+		        SELECT reply_no FROM aim_reply WHERE member_no=#{memberNo}
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=31 AND content_no=#{memberNo}
+		) AS sub_query
+		ON aim_log.log_no = sub_query.log_no
+		SET read_flag=1;
+  </update>
+  
+  <update id="readAllCancel" parameterType="int">
+		UPDATE aim_log 
+		JOIN (
+		    SELECT log_no FROM aim_log 
+		    WHERE type_no=11 AND member_no IN (
+		        SELECT follower_no FROM aim_follow WHERE following_no=#{memberNo}
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=14 AND content_no IN (
+		        SELECT board_no FROM aim_board WHERE member_no=#{memberNo}
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=21 AND content_no IN (
+		        SELECT reply_no FROM aim_reply WHERE board_no IN (
+		            SELECT board_no FROM aim_board WHERE member_no=#{memberNo}
+		        )
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=24 AND content_no IN (
+		        SELECT reply_no FROM aim_reply WHERE member_no=#{memberNo}
+		    )
+		    UNION
+		    SELECT log_no FROM aim_log
+		    WHERE type_no=31 AND content_no=#{memberNo}
+		) AS sub_query
+		ON aim_log.log_no = sub_query.log_no
+		SET read_flag=0;
+  </update> 
+  
+  
+</mapper>

@@ -1,0 +1,2492 @@
+commit 070abd394204c956e33361492fee46cd0b6d18bd
+Merge: d0adfc05 823ecc3d
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 15:20:10 2023 +0900
+
+    edit error
+
+commit 823ecc3dff871c099d3439434e3aeb205c74deef
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 15:19:54 2023 +0900
+
+    edit error
+
+commit d0adfc05eb0d34bfeaecc3fecbb04c99b5c4b19d
+Merge: a1a97531 b0248248
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 14:43:35 2023 +0900
+
+    edit memberView error
+
+commit b02482483322e42aacfe07a270d1eb14f4c177e5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 14:43:22 2023 +0900
+
+    edit memberView error
+
+commit a1a97531e76647f71923ff47d90b6cf0cdd76606
+Merge: 2c2e354c 6c1fda23
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 12:47:14 2023 +0900
+
+    complete member view
+
+commit 6c1fda237baf1c121ea8cb9bac7500f8df6047c5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 12:46:55 2023 +0900
+
+    complete member view
+
+commit 2c2e354c858a216fbd8ea78109d1488f73f8efdf
+Merge: 500d24bb 9036f5dd
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Apr 13 12:34:16 2023 +0900
+
+    Merge branch 'obh-0413'
+
+commit 9036f5dd4f168e122551b5022b5d7501f82e50ee
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Apr 13 12:33:59 2023 +0900
+
+    게시글 수정, 삭제 위치 이동, 상세보기상태에서 리스트쪽 스크롤 막음, 자기게시물 포인트 클릭불가, 상세보기 백그라운클릭시 모달 닫힘
+
+commit 500d24bb001aed524da49be78cd940baaf3db9d9
+Author: Jiyoon Shin <118426807+zyoonshin@users.noreply.github.com>
+Date:   Thu Apr 13 10:28:11 2023 +0900
+
+    Delete mailAuth.properties
+    
+    delete properties
+
+commit d18aa926289d6c3800018623399c2b23033a24cb
+Author: Jiyoon Shin <118426807+zyoonshin@users.noreply.github.com>
+Date:   Thu Apr 13 10:27:57 2023 +0900
+
+    Delete naverAi.properties
+    
+    delete properties
+
+commit b11557c00828a0494abbdcf2673ec10dd64f98f6
+Merge: 6187fe1d 8c9d2019
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 10:14:24 2023 +0900
+
+    add Parallax
+
+commit 6187fe1d3d77dccde5861f342fc47f7dc75c463f
+Merge: f3f6c910 05cc6dfd
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 10:12:44 2023 +0900
+
+    add Parallax
+
+commit 05cc6dfd55fc3e708d37db3c1380aa9424d33806
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 13 10:12:26 2023 +0900
+
+    add Parallax
+
+commit 8c9d20198ef4bb03a7840f85a05966c9cc3b65d9
+Merge: c810926a 7ab4f01a
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Apr 13 09:39:10 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit c810926a90408bb25e0c8345c63e0bcc0b86a562
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Apr 13 09:39:05 2023 +0900
+
+    .
+
+commit 7ab4f01ac9d34c1a49472939d422668cb7c6bd9a
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 12 23:05:12 2023 +0900
+
+    그림 생성 로직 일부 수정
+
+commit 86e8516d0ac8a4b6e9b70066a2e3419734d848ac
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 12 17:44:04 2023 +0900
+
+    OS 별 python 실행 명령어 차별화
+
+commit 66ba1ded14de6dabb2507a5d8d0e37e122a81881
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 12 17:13:15 2023 +0900
+
+    OS 별 python 실행 명령어 차별화
+
+commit ac93ce2fc4e9027523bacabf645360151f0448a6
+Merge: f4f69a03 f3f6c910
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 12 15:14:10 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit f4f69a035d41214c0e9bfe237c7d88f2cbe727a0
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 12 15:13:54 2023 +0900
+
+    generate 시 db 에 추가 완료
+
+commit f3f6c910e1b4c343f4c5884cd5def8f453042251
+Merge: 2481c7c7 4243040e
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 12 10:50:22 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 4243040e795b240e19954ca56d8031ad934802f4
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 12 10:50:12 2023 +0900
+
+    save arezzo files
+
+commit 2481c7c70fb86b74ca24d94b993c18f8e1625441
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 12 09:34:08 2023 +0900
+
+    닉네임 특수문자 검증 구현
+
+commit 0da43b180558b6b933176fb49d43f54222263b6b
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Apr 12 00:38:02 2023 +0900
+
+    포인트기능 수정
+
+commit 08a2d034bbff726dfc3c1b9f7f1fb018b3ac5e1f
+Merge: ad448a24 d33f86f1
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 20:23:17 2023 +0900
+
+    Generate 클릭시 파일 ObjectStorage 에 업로드, DB 에 정보 저장 구현
+
+commit ad448a24fd57a320a4f6432df46a953be6a31c77
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 20:17:40 2023 +0900
+
+    이미지 생성시 파일 ObjectStorage 에 업로드, DB 에 정보 저장 완료
+
+commit 53f539658eb56a28ddc1f420a7a3f9a022977dcf
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 19:40:37 2023 +0900
+
+    이미지 생성 및 DB 넣기 중간 과정
+
+commit d33f86f1d3e51c61c894d7ca0f1c5d9abd1a9b17
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 18:23:11 2023 +0900
+
+    edit admin
+
+commit ea9a7a94e0a04dac46ddd97a723cfad1ca9f8f5a
+Merge: 427decd3 4a3e264d
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 11 17:14:53 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 427decd32764fd0b09dfcaa44ee33f2510fa37e9
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 11 17:14:50 2023 +0900
+
+    Feat: add alarm setting, add filter on finding boards
+
+commit 4a3e264ddcfc0af4713a08af712d18470f9d7727
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 17:00:22 2023 +0900
+
+    edit DB properties
+
+commit 9f36a39524361cfee05e8610133c78996ca510a2
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 15:29:20 2023 +0900
+
+    make object storage
+
+commit 9c8c94998a87754d8f3d167b29c6703cb31aa59b
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 14:28:49 2023 +0900
+
+    다크모드 스위치 위치 미세 조정, 로그아웃시 useNaviate 사용(로그인은 에러나서 reload() 사용)
+
+commit 9f903d12f387765aec3b6f7c666df9d7e53df32e
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 14:08:48 2023 +0900
+
+    로그인, 회원가입 모달 App.js 으로 이동, 인덱스에 로그인 연결
+
+commit b5677207f186ce0a4094ef9285feeac765f64505
+Merge: 992a0932 6eed4c63
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 14:00:01 2023 +0900
+
+    Merge branch 'jk-loginSignup-modal'
+
+commit 6eed4c63ad57968a4857ba6851447b7621438eb8
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 13:59:10 2023 +0900
+
+    로그인, 회원가입 모달 App 으로 이동 및 focus 자동 구현함
+
+commit 1dbef044b75193c6bfc0603925319a9cd68bd098
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 12:30:13 2023 +0900
+
+    로그인/회원가입 모달창 App.js 로 끌어올림
+
+commit 992a0932d6926b881e09dc0797184fdd5f980fb8
+Merge: eaa9f192 50ce8540
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 12:27:29 2023 +0900
+
+    when cell click, print mem.no, mem.nickname and open modal
+
+commit 50ce85408161c2072b80fd8670cbb08992000dec
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 12:27:11 2023 +0900
+
+    when cell click, print mem.no, mem.nickname and open modal
+
+commit 3f28b503b086fc64db885e71e39eea02ce6696cc
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 11 11:52:36 2023 +0900
+
+    비번 찾기 및 로그인, 회원가입 모달 끌어올리기
+
+commit eaa9f1924046a034386844a3642264a0f50b5625
+Merge: c8245f16 5c29b441
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 11:28:01 2023 +0900
+
+    ReactDOM.render() -> createRoot()
+
+commit 5c29b44158b557dd61bc397f41112dded4cf78f7
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 11:27:44 2023 +0900
+
+    ReactDOM.render() -> createRoot()
+
+commit c8245f16a0f898daba1551d14507c6239a3fb24b
+Merge: c83e195d d3dea5d6
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 10:59:36 2023 +0900
+
+    edit home(login modal non-insert)
+
+commit d3dea5d6ef58e30183fb7eda947df2462b83ed53
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 10:59:21 2023 +0900
+
+    edit home(login modal non-insert)
+
+commit c83e195d911e78d235312aa8c031d0f19fe1e375
+Merge: 0ef08318 1d1b9abc
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 10:29:08 2023 +0900
+
+    edit home
+
+commit 1d1b9abc00e54c149babf56bac9535bac6088946
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 10:28:56 2023 +0900
+
+    edit home
+
+commit 0ef083181a1c9d9a22a41530ba54d39e6a0c5373
+Merge: 6ce3186d 1216a821
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 01:37:26 2023 +0900
+
+    add design
+
+commit 1216a821d967970b196bb2e3799342798a08b6e6
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 11 01:37:09 2023 +0900
+
+    add design
+
+commit 6ce3186d108b070f0d4492efccd4f5b7e3fed8e0
+Merge: 7650fc3e e5a1ef16
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 10 21:34:53 2023 +0900
+
+    Merge branch 'obh-point2'
+
+commit e5a1ef16678297b7a0a3698a64eef700932f7724
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 10 21:34:36 2023 +0900
+
+    포인트 후원 구현
+
+commit 7650fc3e023c61387207f8674a9ec49ad2391de3
+Merge: 6f03de2b 5394543d
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 21:01:22 2023 +0900
+
+    네이버 로그인 merge2
+
+commit 6f03de2bb6952104086e76406eb3248bdcb0a3e8
+Merge: e24a7a3e 936fb2a8
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 20:52:30 2023 +0900
+
+    네이버 로그인 merge
+
+commit 936fb2a87534a345e7dafe2c25d3b4b7699a48f2
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 20:38:40 2023 +0900
+
+    네이버 로그인 코드 정리
+
+commit 5394543d256629bbbe2646cc0363dd6558192baa
+Merge: 4669c856 2c27ba61
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 10 20:21:19 2023 +0900
+
+    활동별 포인트 지급 및 마이페이지에 잔여포인트 출력
+
+commit 2c27ba612c2c9cc930a7da17f7be87126d3bbc77
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 10 20:08:08 2023 +0900
+
+    활동별 포인트 지급 및 마이페이지에 잔여포인트 출력
+
+commit 9a30abdcfdf6081ec6eb5641bcf7df975d83b9a6
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 19:43:17 2023 +0900
+
+    네이버 로그인 구현 완료
+
+commit 4669c8563c1d6e5465fd1203c9d28ae26a7b6799
+Merge: 6ba13e1b 46940a90
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 19:08:49 2023 +0900
+
+    add Language
+
+commit 46940a90f0dc183f30e3c8b26238e06adfa65e86
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 19:08:38 2023 +0900
+
+    add Language
+
+commit 6ba13e1b5d3e42e835da7d7921cca0cf3798e41c
+Merge: e8bce3d4 aa89900f
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 19:03:26 2023 +0900
+
+    when click cell, open modal
+
+commit aa89900fdbf6e6e5b432529b85ed6d111f1d1eb6
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 19:03:11 2023 +0900
+
+    when click cell, open modal
+
+commit e8bce3d4cc0e543bb8ff434fe70bbcc68802d08d
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 10 17:59:52 2023 +0900
+
+    Feat: after merge
+
+commit 95b1f324d58b4b4b84bc06479faeed8afb8c31ad
+Merge: 7553f239 6cbd89d5
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 10 17:26:10 2023 +0900
+
+    .
+
+commit 7553f239c3b3369890084e8c8fcaa7b8e0cd549a
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 10 17:20:07 2023 +0900
+
+    Feat: add member detail update
+
+commit 6cbd89d5f2fca89020afc622a4007c267f2fb569
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 17:08:15 2023 +0900
+
+    edit typo
+
+commit 3389806e6a5b8215671abc33c35f45f08cd4f5d8
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 17:07:28 2023 +0900
+
+    네이버 로그인 중 아이디 중복 경우, 기존에 회원가입한 회원이 네이버로 로그인하는 경우 구현 필요
+
+commit c9da4c9add0cce3468dcc14510a60fdb0a05fbd8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 17:03:29 2023 +0900
+
+    when I click cell, go to /admin/{columnNo}
+
+commit 1aec9d099e43e96d68193973e5c14b79d111269b
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 15:35:05 2023 +0900
+
+    edit typo
+
+commit 6a46839b17316272d3a2497a63a878673b2c2f25
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 15:30:52 2023 +0900
+
+    rename MM
+
+commit 8d5d97b766445a142bba0238353ed3c921ef1f1d
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 14:29:05 2023 +0900
+
+    add NCP
+
+commit 46f6e9e7778de61fe6565c3e61c73884b547b370
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 14:27:55 2023 +0900
+
+    complete memberList
+
+commit 641da43d697aab3716688dba0b51a674c67676a3
+Merge: 0cdc4e22 e24a7a3e
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 12:45:35 2023 +0900
+
+    make AdminController
+
+commit 0cdc4e22d7fa0a0e3eea590cb3b3a140c9f5034c
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 12:44:24 2023 +0900
+
+    make AdminController
+
+commit e24a7a3ee86e0f6fd6490d83e7bd1dfb75ed2a30
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 12:13:35 2023 +0900
+
+    자동완성 input box 배경색 및 폰트 색 동일하도록 수정함
+
+commit 7a754f5a875c67021b5d538ca5a1abdd12e0d40d
+Merge: a9c71189 2bd96019
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 11:36:23 2023 +0900
+
+    회원가입시 메일 인증 merge
+
+commit 2bd96019993a84e8ef92c74a0594053a9e092f8e
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 11:29:53 2023 +0900
+
+    회원가입시 alert 창 뜨고 확인누르면 바로 닫히게 수정함
+
+commit a9c7118936197c1aa3a9de8227c768dea10dc478
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 11:10:12 2023 +0900
+
+    다크모드 로컬스토리지에 저장, 알림 아이콘 수정
+
+commit df21cfb1746f0511f67768352949564d0da30abe
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 10 10:04:30 2023 +0900
+
+    네이버 로그인 진행 중
+
+commit 758b403748b6d9974ff78f61b951545f62fdab3d
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 10 09:36:03 2023 +0900
+
+    add badge
+
+commit d138ce45fc78b84303e68103626cfaf6f576660d
+Merge: f4b77c31 0f60e7c8
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Sun Apr 9 22:44:53 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit f4b77c311a5e58fc95cf439eb4e18134183977d9
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Sun Apr 9 22:44:49 2023 +0900
+
+    Feat: add some ui--ing
+
+commit 0f60e7c88e0d4d4bb62d01a8d927398eaec646a6
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Sun Apr 9 22:40:38 2023 +0900
+
+    게시물 정렬 추가
+
+commit b7c8d325e6e78e97fc1471fcfce84a863a4fd8f9
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sun Apr 9 21:56:37 2023 +0900
+
+    네이버 로그인 진행 백엔드로 받는것 까지 되었으나 요청 다시 확인 필요
+
+commit 8fc13373d4e36dbe6d53d03c0f32cf1eb4b2eb04
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sun Apr 9 14:25:37 2023 +0900
+
+    로그인, 회원가입 모달에 네이버 로그인 표시
+
+commit 444bc8beed476392d8a1599cb32c4d6ef33bdaa2
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sun Apr 9 02:04:38 2023 +0900
+
+    properties 파일에 메일 인증 계정 정보 저장
+
+commit 2a4001ac837b293e5b5f0a80bb843b2b957ddc34
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sun Apr 9 00:42:03 2023 +0900
+
+    메일 인증 구현 완료
+
+commit 7cd0da0bcefb80059081c1b2ba246e79ae96c22c
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 16:48:33 2023 +0900
+
+    다크모드 로컬스토리지에 저장 구현
+
+commit 1760582c689bc8a4a9eeeb371e6f40f3a949f139
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 16:19:59 2023 +0900
+
+    관리자 로그인시 AuthModal 에 관리 페이지, 통계 페이지 추가
+
+commit 76412ff6d53f2b394a8fc62db050c74a06e00280
+Merge: 1be4102c 0d5ca887
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 15:52:03 2023 +0900
+
+    Merge branch 'jk-dark'
+
+commit 0d5ca88774706a5df49e98e5d34ca2f216d20be1
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 15:50:52 2023 +0900
+
+    다크모드 추가
+
+commit 1be4102c7f575b1984265aac8e4ea19eb9d918f1
+Merge: 2bbf53a3 4c8cb7cf
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 14:07:54 2023 +0900
+
+    edit table style
+
+commit 4c8cb7cf2af83a9b074b4e29a3b4b04d06e4c03d
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 14:07:40 2023 +0900
+
+    edit table style
+
+commit 2bbf53a35b3dce51ed9d160fd88fa07761d6c674
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 13:34:13 2023 +0900
+
+    로그인 창에서 회원가입 링크 및 반대 추가함. 알림에 더보기 버튼 추가
+
+commit aa8c7957724e08e0c628fc1092cb9709a73a9398
+Merge: db385744 f96060bd
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 13:27:22 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit db3857441afade049acbd67abadaefb0a7ca0ff0
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Sat Apr 8 13:27:03 2023 +0900
+
+    로그인에서 회원가입 링크 및 반대 생성 완료
+
+commit f96060bd1f991791bcdfd73a0c2218ef615597f4
+Merge: d41c1b68 e169a072
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 06:11:59 2023 +0900
+
+    edit readMe
+
+commit e169a0728e418188cf2b182281b6302d5a70d9a4
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 06:11:56 2023 +0900
+
+    edit readMe
+
+commit d41c1b6898c5379684107f4a37f13db645628a9b
+Merge: 5611e82e 9c96a738
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 06:10:52 2023 +0900
+
+    edit readMe
+
+commit 9c96a738ecb54011b8b3ad86c2d9465d7327693d
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 06:10:36 2023 +0900
+
+    edit readMe
+
+commit 5611e82ef6fe0d7fc055d28f0aba341fbff42fb1
+Merge: 62cb9cd0 bf5d0d7c
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 05:58:43 2023 +0900
+
+    edit readMe
+
+commit bf5d0d7c4d6001f5a3bfd8fe4887a8c89be691ee
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 05:58:28 2023 +0900
+
+    edit readMe
+
+commit 62cb9cd0d40d58919425578d83497bc26853fd9e
+Merge: a88e8af4 c3842dd8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 05:56:36 2023 +0900
+
+    edit fontColor
+
+commit c3842dd8050e9c89dc13f77040278f47a6b6cce0
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 05:56:16 2023 +0900
+
+    edit fontColor
+
+commit a88e8af4d22382d45a2de8b051932b0ebc439a8d
+Merge: 2eeba7ad e7f4e3a4
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 05:52:23 2023 +0900
+
+    edit readMe
+
+commit e7f4e3a4365c5ddff6306d39c1bcfaada0b65f96
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 8 05:52:02 2023 +0900
+
+    edit readMe
+
+commit 2eeba7adfaf6633ea4b3793fd2f8115b9847b7e1
+Merge: f80f6f3e 4e6323c2
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 18:16:52 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit f80f6f3e1783f7e9b4919b166a981b109df003fb
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 18:16:02 2023 +0900
+
+    uninstall npm
+
+commit 1ed2deebb17293b93d95d9abae5ff9a956776343
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 17:50:15 2023 +0900
+
+    generate 버튼 spinner 구현 완료
+
+commit 4e6323c2b9518c76045ba9d14dd2fb8e4acb3c46
+Merge: 1db01f8e d8e19478
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Apr 7 17:48:19 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 1db01f8e698f8c0a6122b2e16fb8b9430cfbfd8a
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Apr 7 17:47:54 2023 +0900
+
+    공개처리된 게시물만 조회, 신고횟수 5회이하 댓글만 조회, 게시글 신고하기 추가, 댓글 및 게시글 날짜 수정
+
+commit d8e19478c4768f2bbab47cbeb99da4275ac84462
+Merge: f00f79ac 6f9d17e2
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Apr 7 17:45:17 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit f00f79acba31dd1ab5b95ba1db736ed2f3c8bfbe
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Apr 7 17:45:12 2023 +0900
+
+    Feat: add profile photo change
+
+commit 6f9d17e2abf2a7f564804a980734cba4e2669d89
+Author: das7945 <das7945@naver.com>
+Date:   Fri Apr 7 17:42:16 2023 +0900
+
+    FAQ진행중
+
+commit 015071fcd1ef6536feaa771fc6774549ffb345ea
+Merge: e4832fd7 28f5865d
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 17:20:54 2023 +0900
+
+    Merge branch 'jk-ai2'
+
+commit e4832fd76c65f7adc9552cdf3757f09a8d0439da
+Merge: 3cbd013a e9b19a6d
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 17:20:46 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 28f5865d9b4a551b29ac380dfea479a4b44039ba
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 17:20:19 2023 +0900
+
+    src/main/pythonapp 에 ai 추가 완료
+
+commit e9b19a6d3589534681a75218b4d0586029c14792
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:56:52 2023 +0900
+
+    edit table css
+
+commit c737c9de80a1a3e352ef05786f2484e2529b99c6
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:12:22 2023 +0900
+
+    edit readMe
+
+commit c1ed530ccf39e881dac510d7e1cb3e1925038747
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:11:14 2023 +0900
+
+    edit readMe
+
+commit ce6a25d318095a7df962ff1e13544161d8081cb5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:10:41 2023 +0900
+
+    edit readMe
+
+commit 645d88aa18383b038ba2211905422dd871d7c8ae
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:08:45 2023 +0900
+
+    edit readMe
+
+commit 050c35899eb5086dca6deebfc60aaa13503c10b9
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:07:38 2023 +0900
+
+    edit readMe
+
+commit 717bcf28986c2461d95fb61533e00cb2c523cc3b
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:07:04 2023 +0900
+
+    edit readMe
+
+commit 97c89af376b2b9df642686a0472d8e3cdbb5bf1b
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:06:33 2023 +0900
+
+    edit readMe
+
+commit 2c06031156cea5e7b69a245624f6c6a9583355f9
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:05:17 2023 +0900
+
+    edit readMe
+
+commit dc9f37fe0c4697a43b92c475b7c11f39f3bd923e
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:03:34 2023 +0900
+
+    edit readMe
+
+commit df5d3bddef77f16ea6792796316f98c2ebb69271
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:02:52 2023 +0900
+
+    edit readMe
+
+commit 14494335c59821b29ac69221adf13e4096b21b78
+Merge: d43bbf41 aaf64e6a
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 16:00:14 2023 +0900
+
+    edit readMe
+
+commit aaf64e6acf05bb077ac3831718d3fbc72caebd2f
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 15:59:01 2023 +0900
+
+    edit readMe
+
+commit 3cbd013a2195f170697c4d7e2f809e005741ace2
+Merge: bac3824b d43bbf41
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 15:51:34 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit d43bbf417171f08f6509eafb6d32a4852c33754e
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 15:44:07 2023 +0900
+
+    edit readMe
+
+commit bac3824beaff71b064ce13e7218a1232f3dde136
+Merge: a077ab9e b3f18f1f
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 15:35:43 2023 +0900
+
+    Merge branch 'jk-alarm3'
+
+commit b3f18f1f2e1e753cf03d2b5af8d7feee29d127cb
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 15:35:14 2023 +0900
+
+    알림 창 세부 수정. 회의 내용 작성
+
+commit a077ab9eebd560da31654f0dfc3bc96075fd1baa
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 15:18:33 2023 +0900
+
+    edit typo
+
+commit d44857bfa59dd6f1936223a301bcd2607039f538
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 15:17:47 2023 +0900
+
+    edit typo
+
+commit 75f33464cc666049d44f904099e1fe62fd13febf
+Merge: bd8bbf98 f36f4ddd
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 15:12:45 2023 +0900
+
+    edit mm
+
+commit f36f4ddd9f9e6f330992b8696238f8235e737178
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 15:10:15 2023 +0900
+
+    edit mm
+
+commit be3ff81ccbefc05f7fc4a908de65cc6fb381cd1e
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 13:07:23 2023 +0900
+
+    알림창에 댓글 나오게 수정 완료
+
+commit bd8bbf9801ec341c1aef6db33b04b73088e4c1d8
+Author: Jiyoon Shin <118426807+zyoonshin@users.noreply.github.com>
+Date:   Fri Apr 7 11:56:28 2023 +0900
+
+    Update README.md
+
+commit 73cf1c30ec47d5b12c8c2614bd6b7d9906bb5b29
+Merge: 219c352e 18b76857
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 11:33:00 2023 +0900
+
+    edit readMe
+
+commit 18b768572d9a3f92e7326e704e6ca8700b93aa2f
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 11:32:37 2023 +0900
+
+    edit readMe
+
+commit 219c352e9a7404557f2cbe1f17d7406cbec4c3a3
+Merge: 9958332d b0e6127a
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 11:30:26 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit b0e6127a393a7086f4b64356a4dcc0955568001a
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 11:30:08 2023 +0900
+
+    edit readMe
+
+commit 9958332d4f11374f74e30ec3eb8e7707b9f59400
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 11:05:55 2023 +0900
+
+    edit mm
+
+commit 843aced8de3fdd0230a2ef69423511da30318c1c
+Merge: 966c6e8f 4c7ee334
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 10:59:35 2023 +0900
+
+    before presentation
+
+commit 4c7ee33439419d2a3bbeba5d00348ea107de68c5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Apr 7 10:58:26 2023 +0900
+
+    before presentation
+
+commit 966c6e8f16aca63c39249792e55595757e034e7f
+Merge: 878786d3 4806e284
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Apr 7 10:45:12 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 878786d3b71542a169e5ac34da092f62f677e433
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Apr 7 10:45:08 2023 +0900
+
+    Fix: own profile
+
+commit 4806e284cbc5741b5e8c62c6e4d2febb2a112d1c
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Apr 7 10:37:09 2023 +0900
+
+    프로필 게시글상세 버그 수정
+
+commit 0b6cb10925f13685c1e20ab9156d0d2e6f1f76dd
+Merge: 498f3f10 c35e8780
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Apr 7 10:32:28 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 498f3f10e5a55738dd3778db55e72ca938b60418
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Apr 7 10:32:16 2023 +0900
+
+    상세보기 모달 min-height 설정
+
+commit c35e878072d4ce6b5ee434cd8c91646255ad70c4
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 10:09:14 2023 +0900
+
+    알림창에서 게시물 클릭시 모달 띄우도록 구현. 로그인, 회원가입 오토포커스 구현
+
+commit e27385068a09d33661545f31a51935a0fd0fd282
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 10:07:43 2023 +0900
+
+    알림창에서 게시물 클릭시 모달 띄우도록 구현. 로그인, 회원가입 오토포커스 구현
+
+commit 53e78e892ee5654a99053c8ab417abce74645f23
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Apr 7 00:11:26 2023 +0900
+
+    알람 게시물 클릭 작업중
+
+commit 85fd31442142762961fa2f38dc3360d815c088d2
+Merge: 320dbeb8 715fc0a5
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Apr 6 20:46:09 2023 +0900
+
+    Merge branch 'jk-alarm'
+
+commit 320dbeb8660a773e5f03fa0eba9cfc3cbb7ac940
+Author: das7945 <das7945@naver.com>
+Date:   Thu Apr 6 19:41:35 2023 +0900
+
+    FAQ진행중....
+
+commit 715fc0a5ddc4af88f2879c1a68f629bbf79db223
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Apr 6 19:11:07 2023 +0900
+
+    알림 스크롤 구현
+
+commit ae813301cf322c2f894f13df4072d9200c4c0d6b
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Apr 6 18:15:57 2023 +0900
+
+    로그인 수정2
+
+commit b17fb5e90f7af5b14161b75ffb0120f1913b5bb8
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Apr 6 17:57:42 2023 +0900
+
+    로그인 수정
+
+commit 6b6c70527118ee01b30f3ca966c8127f3b0cf496
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Apr 6 17:52:35 2023 +0900
+
+    알림 사항 나오도록 수정. 사용자 프로필 연결 완료
+
+commit 98cf15ac8f8ad17e57ebc45a577b671d02c2c7a6
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 17:24:12 2023 +0900
+
+    edit mm modal
+
+commit 35172919396438702fd4cb1ca5ee7df726fa9893
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 16:15:16 2023 +0900
+
+    make mm modal
+
+commit 9fabc3d83a11ff1f90aa9547131566074dcd7c8d
+Merge: 7fff8fd5 f86cc3ad
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Apr 6 15:41:49 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 7fff8fd55d1984190f0e59f048f81c2b11321b72
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Apr 6 15:41:19 2023 +0900
+
+    검색기능 추가
+
+commit f86cc3ad911167292a5f15c7b88f55d1f2d161e8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 14:26:45 2023 +0900
+
+    edit mm css
+
+commit 7025e53fd7427f30861817fd75aad9e52bdb4b31
+Merge: 22dae67e c0ca9315
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Apr 6 13:54:21 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 22dae67e87b75e6272a84b00fc28905460b5f499
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Apr 6 13:54:17 2023 +0900
+
+    Feat: add public setting page
+
+commit e24033f61b3f9082bbc29808bffca87d4a6328b0
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Apr 6 13:41:10 2023 +0900
+
+    alarm 내용 추가
+
+commit c0ca93158194799693e58b252d4507e4b6451a89
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 12:41:26 2023 +0900
+
+    complete MemberList
+
+commit ccd765afe6c05bda63fcaaad84d97fa01ccb03b1
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 12:14:32 2023 +0900
+
+    check output of aim_member list
+
+commit 017ad4a81908bfda5ca4811154dd585b81cf1e86
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 10:48:56 2023 +0900
+
+    check MM sever/client
+
+commit c237f6b5ef57b23289928cbc86edbbf5807a6f7e
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 09:54:47 2023 +0900
+
+    connect test.ver
+
+commit 248adb6997dcfbc78e72ebd82eebf76557ac1a3e
+Merge: fcd82413 b45e0136
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Apr 6 02:33:30 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit fcd824135969b5b207e18588149f83d6dd2da1eb
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Apr 6 02:33:20 2023 +0900
+
+    .
+
+commit b45e01362a7b2da515237b374863941bdf6bcda5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 02:06:21 2023 +0900
+
+    edit typo
+
+commit c499d6ca188013435d9226abe3312ed1a3bc7290
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 02:02:27 2023 +0900
+
+    insert dummy data(member management)
+
+commit bf9e52b1f8028f5703acc3561f38df8e208f8701
+Merge: ba1287be 62b74f3f
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 01:14:27 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit ba1287be757f3660e1136982f38b81308135d625
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Apr 6 01:14:04 2023 +0900
+
+    make managementMember
+
+commit 62b74f3f1b8a1fe8602cd26ca723fa709d699b49
+Merge: 627a6baa 40b87a4e
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Wed Apr 5 21:31:32 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 627a6baa935dcd1005b0a3fdc5be45b4bbdd5e50
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Wed Apr 5 21:31:22 2023 +0900
+
+    .
+
+commit 40b87a4eac657c28122333f25bb6a1c22f7a9768
+Author: das7945 <das7945@naver.com>
+Date:   Wed Apr 5 20:43:06 2023 +0900
+
+    FAQ진행중
+
+commit 7900aa1b17f9773a2a585e432d245f8512b9ee75
+Merge: 61a9e20a 094cb38f
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 20:27:28 2023 +0900
+
+    generate 클릭시 그림 생성해서 로컬에 저장하는것 까지 완료
+
+commit 094cb38f66f4a5c769f71d6f5fd1e3db7b3d3757
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 20:24:13 2023 +0900
+
+    그림까지 자동으로 뽑아서 로컬에 저장되는것 확인 완료. 알람 모달창 띄우는것 까지 함
+
+commit 61a9e20a3c3ecb00f08128c360693ecfc947a839
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 5 18:00:41 2023 +0900
+
+    make Management Member frame
+
+commit b6e6b02f0b28de223e475f6e006fabe42117f73e
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Apr 5 17:04:32 2023 +0900
+
+    비로그인 상세보기 제한
+
+commit cd966cdeac052b45ccf53c3a8a87b76e2abf0510
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 16:19:54 2023 +0900
+
+    BoardController 에 텍스트를 stable diffusion 에 전달하는 코드 작성 중
+
+commit 9bbc41d8f738c6a68f5a5578a99958f44e4c061f
+Merge: 7e18bd42 fb987bc2
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Wed Apr 5 14:26:49 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 7e18bd42a1143bb51356147e5f35c36911dc25b0
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Wed Apr 5 14:26:45 2023 +0900
+
+    Feat: add reply name link & fix following list
+
+commit fb987bc2dd3724e8715c8fca23144fc6d64c954a
+Merge: 38883f25 6034c778
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 5 14:13:11 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 38883f2506441438787c96e1d2b12fd76b38c48c
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 5 14:11:14 2023 +0900
+
+    change Home
+
+commit 6034c778301a592b8a98a674c8bbd47187df4adb
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 5 14:11:14 2023 +0900
+
+    chang Home
+
+commit 3b48e5d3a39e376c045b3db65e4ec71f9db76437
+Merge: bc241f4f e38c8273
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 13:25:07 2023 +0900
+
+    ai 그림 그리기 진행 중
+
+commit bc241f4f3c33447557c47ff9dbb05826acf7422a
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 13:23:30 2023 +0900
+
+    그림 그리기 작업 중
+
+commit e38c8273a2e34b5e6fba842e076e6b048634c604
+Merge: a2c61a68 3cd2a71b
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Apr 5 13:06:18 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit a2c61a6816e6df1544b44315418e0cf652666eb3
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Apr 5 13:05:43 2023 +0900
+
+    신고하기 기능 추가
+
+commit b2a5046644aa9da8b595b14911dd6cca97679256
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 12:31:38 2023 +0900
+
+    ai 요약 및 번역 후 리턴 값 확인 완료
+
+commit 3cd2a71b0c66c1d2573a3ac0c95a078bb2e8ede0
+Merge: c81fce71 364381fa
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 5 12:16:01 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit c81fce71e92a5558283fe950a13e2c5f4ea02ac3
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Apr 5 12:14:06 2023 +0900
+
+    connect db, add typing effict and show random image only
+
+commit 359c6ece64d9de01881a8204ece28a0d2b441aee
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 08:39:56 2023 +0900
+
+    알람 시간 정상적으로 가져옴
+
+commit 4cb887a7d2d0baa1ff99eeeebf2e801370b97f53
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Apr 5 08:28:56 2023 +0900
+
+    알람 시간 수정 중
+
+commit 364381fa1c6fc0780165d4505239c5edde3424a5
+Author: das7945 <das7945@naver.com>
+Date:   Tue Apr 4 21:32:28 2023 +0900
+
+    FAQ 진행중 DB TEST완료
+
+commit db548a9ba4e2d95c71c9777d0c520ed98e8ddb9c
+Author: das7945 <das7945@naver.com>
+Date:   Tue Apr 4 21:16:28 2023 +0900
+
+    FAQ 진행중 DB TEST완료
+
+commit 4f040d93b0c85c714b3b67df498d88f2fb412107
+Merge: aaf04814 3e3f9506
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 20:49:47 2023 +0900
+
+    알림 내용 가져오는것 및 종에 빨간 점 구현 완료
+
+commit 3e3f950647d71dc8cdf1380f26d6e2314a280c97
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 20:45:34 2023 +0900
+
+    알림 내용 가져오는것 및 종에 빨간 점 구현 완료
+
+commit aaf048142abada2e8869de2db171496946e95122
+Author: das7945 <das7945@naver.com>
+Date:   Tue Apr 4 20:35:19 2023 +0900
+
+    faq진행중
+
+commit a9a56597314eae6b58e67d77933f52cd59db35fd
+Merge: 140fd103 f6592259
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Apr 4 17:37:09 2023 +0900
+
+    신고하기 모달 추가
+
+commit 140fd10307800127e82976d8cf0d4ede07491028
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Apr 4 17:33:40 2023 +0900
+
+    신고하기 모달 추가
+
+commit f6592259a1a8e45755997ba2225a1045d8b2adae
+Merge: 5ca02083 3ba2f9ec
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 4 15:49:42 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 5ca02083d9d9d9ec2e85d10d1605c5cc744023f9
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 4 15:49:35 2023 +0900
+
+    Feat: add follow count
+
+commit 215440301076f5df6db81cfb34dc750a827d7170
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 14:50:57 2023 +0900
+
+    알림 관련 SQL 수정 및 샘플데이터 추가 완료. vo 객체 작성 중
+
+commit 3ba2f9ec0e1b17fd19b8f830c7619245faf6eddf
+Merge: fd96f333 018d70f9
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 13:41:16 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit fd96f333e249c61073de6e2d6360ee312ae731fa
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 13:40:53 2023 +0900
+
+    로그인, 회원가입, 글쓰기 모달창 UI 수정
+
+commit 018d70f980e3816b847960a1ec1e4cee0ba1a35b
+Merge: ffa8be6a c921a85d
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 4 12:48:41 2023 +0900
+
+    edit text
+
+commit c921a85d9fd8293f9f2da0925db7439904bca137
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 4 12:48:27 2023 +0900
+
+    edit text
+
+commit ffa8be6a329269d27cd474bb97d19cb3a7377ca2
+Author: Jiyoon Shin <118426807+zyoonshin@users.noreply.github.com>
+Date:   Tue Apr 4 12:46:21 2023 +0900
+
+    delete key
+
+commit 69f2ced6e4d7c7b2add0c13b97e940db83ddae81
+Merge: e5b705e5 839f826a
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 4 12:30:22 2023 +0900
+
+    add card-hover
+
+commit 839f826a0dddd46a5ad373410237d73a0990a4e8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 4 12:30:05 2023 +0900
+
+    add card-hover
+
+commit e5b705e5d1ec21e06deb721cb0795a86bc732039
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 4 11:55:59 2023 +0900
+
+    Feat: chage feed modal smallprofile
+
+commit 0a6a49944afb786fbd237ec52095099fb5b0698b
+Merge: 762fe966 8645f15a
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 4 11:14:21 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 762fe966572ac272a6b3aeb16619e503ba49153a
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Apr 4 11:14:05 2023 +0900
+
+    Feat: add like Heart on board Modal
+
+commit b6275087cb5e40871172c3c007f5e880cc2003d2
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 10:32:52 2023 +0900
+
+    로그인시 프로필 사진 추가 완료. 글쓰기 창 수정 완료
+
+commit 8645f15ad20e28910f5e45a3cbeee336d1101659
+Merge: 8e221b27 fc4de2a1
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 4 09:58:34 2023 +0900
+
+    make main frame
+
+commit fc4de2a1235e5e581c482ac71fed2f3029d83f44
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Apr 4 09:58:08 2023 +0900
+
+    make main frame
+
+commit f26e10fbdf03cb8f6ba72faf9f00ae739ed55654
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 08:53:02 2023 +0900
+
+    summary_content Board.java 및 sql 에 추가
+
+commit 8e221b2738d6eaac448847781fc0ced6e14e06e0
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Apr 4 08:21:07 2023 +0900
+
+    로그인 엔터 구현 완료
+
+commit a22d141aba3b7a3ea112c74d543cde9371c27238
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 3 20:50:41 2023 +0900
+
+    generate 클릭시 정보 넘기고 받는거 확인 완료. 로그인 창 세부 수정
+
+commit b7083d794e3d1280b368de04774d12dd4a6feb10
+Merge: b3ddd8b5 257ff6ac
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 3 20:49:50 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 257ff6ac01d3755ed1d5b46f41f95c911084e27c
+Merge: 016fa08d afa3cae7
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 20:09:33 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 016fa08d4787eb0f6447202d10632bcf789a4b8c
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 20:09:23 2023 +0900
+
+    코드정리, 좋아요된 댓글 삭제, vo 정리, mapper assosiation 추가
+
+commit b3ddd8b5c4b6e1d496f6921008647985de2a39e4
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 3 20:06:49 2023 +0900
+
+    로그인 엔터 구현
+
+commit 4cd474d04fc55ead2101c4d5191a9e9b71adbc3b
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 3 19:07:25 2023 +0900
+
+    generate 클릭시 로그인 정보 가져오고 이 후 content 데이터 넘기도록 수정 완료
+
+commit afa3cae7ed43dd8ae9e8f9a0bd682b7b7fb22e64
+Merge: 0abcc2f1 56b48652
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 18:39:10 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 56b48652fb28fc48cd08889f9e7b8819cbe3bca8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 18:38:59 2023 +0900
+
+    edit font
+
+commit 0abcc2f1c50f5bb32fad8bdc64bfaa5130f5857d
+Merge: 7b088023 d64c1802
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 18:02:12 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 7b0880230ea9e4e36df46e34a819b52c458ade66
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 18:01:52 2023 +0900
+
+    edit App.js
+
+commit d64c180216c461d5df55bd64d1d132f8af516886
+Merge: 94bd3ebc 5863397b
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 17:04:09 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 94bd3ebc5b0bc4225bc3abf307cb92a81f197fbf
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 17:04:00 2023 +0900
+
+    댓글 좋아요 중간커밋
+
+commit 5863397b92d5e01068baac52a08cd0dd48613877
+Merge: b2846fad 13575924
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 17:02:16 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit b2846fadbcce8bbbdc310d3dcae1066041500d3c
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 17:01:26 2023 +0900
+
+    connect Main
+
+commit 13575924556b16f86cd87fd38850cae87fe74f3d
+Merge: 3d8721fc a3bf9c41
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 3 17:00:58 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit a3bf9c41f23455330c3f655c42e715bc938f3d4b
+Merge: 2e2c1b86 2d67edfb
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 16:56:24 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 2d67edfbe62178e05b40424f448d5c7c6cd1a92c
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 16:56:13 2023 +0900
+
+    edit font
+
+commit 3d8721fcb264837b2683c05c6ebdf20b39014b43
+Merge: ee437922 2e2c1b86
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 3 16:56:09 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit ee4379220ef4fe1cd9c37b7f7b6bde18e37b3978
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 3 16:56:04 2023 +0900
+
+    Fead: add like btn
+
+commit 2e2c1b864ee8489bbba0bc1f5f39e47d75718c23
+Merge: b1b5c3db 57a40d55
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 16:48:40 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 57a40d55e008f9551d6ab9d99933f5f52c0583b4
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 16:48:30 2023 +0900
+
+    edit data.js
+
+commit b1b5c3db2056994d574c489aa215a64c5b27d5c2
+Merge: 37b1b350 56c9b5f5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 16:09:16 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 56c9b5f599e56253f79d11e889d8556f5aab55a3
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 16:09:05 2023 +0900
+
+    add Scroll Effect
+
+commit 37b1b35047207460399824746f5587a32947e5f4
+Merge: a4a8969a 0664f861
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 15:19:05 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 0664f8616977daf0f02dd00a971e6b34b7756d98
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 15:18:51 2023 +0900
+
+    edit css
+
+commit a4a8969a8bac1df728e7189e7b24ee5416ad5104
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 15:17:17 2023 +0900
+
+    create Main
+
+commit e281fb33b8f1511f2f67f958b63ae02f0696ac05
+Merge: 5d2e46e3 e77d9814
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 15:15:23 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit e77d98144179f7a288167a6dec3a649494bbfecf
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 15:15:05 2023 +0900
+
+    create Main
+
+commit 5d2e46e3e75fd1e2c4054976621bfaa6a8270b51
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 14:28:19 2023 +0900
+
+    add BackgroundSlider
+
+commit 12210ffd4fc2230b6247b2b0c9432c18ba5b2863
+Merge: 7b637d57 bfce0f73
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 14:19:43 2023 +0900
+
+    Main-BackgroundSlider upload
+
+commit bfce0f73367d81f23107fa6f29e2f8edd5effe6b
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Mon Apr 3 14:16:24 2023 +0900
+
+    Main-BackgroundSlider upload
+
+commit 7b637d574a8f9155f67cd4711db6ed6ece612f03
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 12:24:24 2023 +0900
+
+    상세보기에 Follow 추가
+
+commit 3ffea45dc19feddef4cdb34e176fac04d120faa2
+Merge: 32b58afc 4b8bab39
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 12:01:45 2023 +0900
+
+    Merge branch 'obh'
+
+commit 4b8bab39620cbb45b28127db4bf729f2acec40d0
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 12:01:25 2023 +0900
+
+    feat: add comment delete
+
+commit 32b58afc11166654722843ca7be56fe9650e1443
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Mon Apr 3 11:04:31 2023 +0900
+
+    Fix: follow system
+
+commit 70e4726956fc86445d67d76f2738e9bc24f55d77
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Apr 3 09:15:36 2023 +0900
+
+    사용자 작은 모달에서 글쓰기 버튼 구현
+
+commit 3308af535de7134b1f49ca392224481d835e12c0
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Apr 3 00:10:02 2023 +0900
+
+    Design: 상세보기 댓글 디자인추가
+
+commit e5e1f62baa7c7643c75c677643f5f74f1ceab7dc
+Merge: 2cf4f7f9 7c000951
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Sun Apr 2 23:19:21 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 2cf4f7f979774fe73cf18c32a3c76275aa763d3e
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Sun Apr 2 23:18:49 2023 +0900
+
+    Feat: add follow / unfollow
+
+commit 7c000951981c7f369f29b79773520148ce7c64b4
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sun Apr 2 21:44:01 2023 +0900
+
+    edit README-figma link
+
+commit a9dcc3bfb8b81e07f77eb47699eb4fb652b1744f
+Merge: c54ee6dd c6cb34eb
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 1 22:49:26 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit c6cb34ebe1a3d92e8fba7ca7bcf1e1ed6f4e3e1e
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sat Apr 1 22:49:13 2023 +0900
+
+    edit scroll
+
+commit c54ee6dd48d83984b462788152bda905bf0f9e88
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Sat Apr 1 16:11:09 2023 +0900
+
+    feat: add comment function
+
+commit 7150f6223d8e06f97ea1fb8d1d8039cb42e8b83a
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Sat Apr 1 15:54:32 2023 +0900
+
+    feat: add comment function
+
+commit fa3d7545976072f0de64b1e1c57577b92e341a3f
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Sat Apr 1 01:49:49 2023 +0900
+
+    Feat: add small profile Component
+
+commit 31871088293c34c4d12291f30186e6a5932cd711
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 21:11:18 2023 +0900
+
+    로그인 유저 클릭시 모달창 작게 나타나도록 구현. 글쓰기 버튼 클릭시 포스트 쓸수 있도록 수정해야 함
+
+commit bbbbf8faa3bf7e40a50620f5b90d0216789dab04
+Merge: 2b5678af f03f40ee
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 21:09:29 2023 +0900
+
+    Merge branch 'jk3'
+
+commit f03f40eeead4c098f9e13f147973fd8690fce784
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 21:08:45 2023 +0900
+
+    로그인 유저 클릭시 모달창 작게 나타나도록 구현. 글쓰기 버튼 클릭시 포스트 쓸수 있도록 수정해야 함
+
+commit 81e65e855c87c6cb56222b264eb586ae260edf87
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 19:50:01 2023 +0900
+
+    로그인 유저 닉네임 표시 기능 구현
+
+commit 2b5678af9043648a96a37b8bfb847f31796ebfe1
+Author: das7945 <das7945@naver.com>
+Date:   Fri Mar 31 18:12:38 2023 +0900
+
+    feed페이지 이미지 정렬
+
+commit 9d62323e8774cf1ffd53948347611093cc770d8d
+Merge: 008e1c19 9eb548f8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 17:54:37 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 9eb548f82c294b838046df3f95925f6e7a76c1d1
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 17:54:27 2023 +0900
+
+    rename folder
+
+commit 008e1c196fa4eb6cdcd9511a485ae35ee885110a
+Merge: 6000a64e bfb2e7c8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 17:42:36 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit bfb2e7c866f4dc469f0c4058aeb6f0f505b57273
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 17:42:25 2023 +0900
+
+    design front-end frame
+
+commit 6000a64edcfb5800a752f5f2151436f970ae9953
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 16:44:19 2023 +0900
+
+    delete unused file
+
+commit c314c742c187240db6d8ada3c135ad723ec88cc0
+Merge: 52f66e68 bdfb51eb
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 16:40:18 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit bdfb51eb5051a218875628de4b7d8acea93cc8d2
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 16:39:59 2023 +0900
+
+    edit read.me
+
+commit 8d8ba2f703508db75785de4ebac17135c79b213d
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 16:31:56 2023 +0900
+
+    getCurrentUser 수정 전 커밋
+
+commit 52f66e688b51d8d74d4b41a20c62816521725b6c
+Merge: 4a5b25b1 5f9cf100
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 15:22:39 2023 +0900
+
+    create jiyoon's folder
+
+commit 5f9cf100ea2021fe4560d0603d35ba350ce63580
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Fri Mar 31 15:19:07 2023 +0900
+
+    create jiyoon's folder
+
+commit 4a5b25b19ee371e1a03fad2c04478518992a9e16
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 13:39:21 2023 +0900
+
+    무한로딩 수정
+
+commit 456619b975e0df3e4672032330ba487394c0ba99
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Mar 31 12:43:16 2023 +0900
+
+    발표준비
+
+commit 3ea779de00cae52bf3161f952e86a0990c4a62ea
+Merge: 29e7d41e 0bdb4e9c
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Mar 31 12:34:10 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 29e7d41ecf6ab7ef3b826c2bfda3fd393b5f4fbe
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Fri Mar 31 12:33:08 2023 +0900
+
+    Feat: profile update
+
+commit 0bdb4e9c2b23e6597246842c308c178d10d03144
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 12:28:54 2023 +0900
+
+    네비바 부트스트랩 양식 사용. 로그인, 회원가입 기능 구현 완료. Post, 검색바 UI 추가
+
+commit 314d0a26af9692e202d43c0d531ee7661ff2f276
+Merge: fb829d7b ed043bb3
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 12:28:16 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit ed043bb318226c2c2501e4da2300a1f9e2d9c302
+Author: das7945 <das7945@naver.com>
+Date:   Fri Mar 31 12:27:28 2023 +0900
+
+    모달창 css
+
+commit fb829d7b313c2ff217b732bdbf98be788f78cf30
+Merge: 2f33cd08 a08c9aca
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 12:24:53 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 2f33cd0857fe3a57cd12a36e172d9c7c266c90d2
+Merge: 68a67ab0 55aad2cd
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 12:23:38 2023 +0900
+
+    네비바 부트스트랩 양식 사용. 로그인, 회원가입 기능 구현 완료. Post, 검색바 UI 추가
+
+commit 55aad2cd467f5415f95f35bb97746e00a4c52dd4
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 12:21:20 2023 +0900
+
+    네비바 bootstrap 양식 사용. 검색바 UI 추가
+
+commit a08c9aca594650f4abff9b69a902dcb31078fe47
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Mar 31 12:11:39 2023 +0900
+
+    feat: view reply
+
+commit 1c62643c83a2361bc8a70a5991f259be4d40d302
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 11:19:35 2023 +0900
+
+    AuthBtn 분리 완료
+
+commit 70124167f8c397f843dd8fe8cfc1fa850c0e4b0b
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Fri Mar 31 11:15:47 2023 +0900
+
+    hi
+
+commit 85ab1c285c731b6185638c527587b5bfa0c9685d
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 31 09:43:32 2023 +0900
+
+    Post 버튼으로 모달창 띄우기 완료
+
+commit 68a67ab0619073f4e819fd6d11d59098267342dd
+Merge: 305f3896 3fe56a85
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Mar 30 21:26:14 2023 +0900
+
+    Merge branch 'obh'
+
+commit 3fe56a8560f7957d86f10423856edd341589b5f4
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Mar 30 21:25:49 2023 +0900
+
+    feat: view modal
+
+commit 11eca0154742f0760a88b922c0c5ea87bc53dcde
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 18:12:03 2023 +0900
+
+    회원가입시 바로 로그인 되도록 구현함
+
+commit 04dcd44e1101e7c958b8036ea32e9c92506f0ad7
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 16:41:53 2023 +0900
+
+    회원가입 데이터 주고받는것 구현함
+
+commit 305f38969637b85f13356b78e2a9083824c19a7b
+Merge: a0c90079 b4aab15a
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Mar 30 16:36:30 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit a0c90079b0bd2094e75a409f1b8017beae1fb065
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Mar 30 16:35:18 2023 +0900
+
+    Feat: update profile
+
+commit b4aab15af1ca7194ee891a5914edf92a679dcfea
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Mar 30 16:22:50 2023 +0900
+
+    LikeIcon
+
+commit e3359f597622ea686cd9a1e2a054eaedf842390a
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Mar 30 16:19:01 2023 +0900
+
+    LikeIcon
+
+commit 6973ac2e6aa55bbfbeb08264ae2350ee3c0b7332
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 16:03:04 2023 +0900
+
+    회원가입: 이메일 중복확인, 닉네임 중복확인, 비밀번호 첫번째 체크까지 구현함
+
+commit 24c7705e5c63b13809845df592af35ad0dee9827
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 14:22:13 2023 +0900
+
+    회원가입 중복확인 제작 중
+
+commit 445cd818c64ec0de0a296458314cd009d1669550
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 12:50:12 2023 +0900
+
+    회원가입 모달창까지 작성
+
+commit 01bb8c40a99727f2a0c8a6c18027fc628f595a55
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Mar 30 11:47:04 2023 +0900
+
+    profile images
+
+commit 4f8221e3093ec0e8f536bb21dfa67187444f34e9
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Thu Mar 30 11:18:26 2023 +0900
+
+    프론트, 백 폴더분리
+
+commit f9eeff2dc63679033675d477e18cdcff92557182
+Merge: 453f3a13 6618fef7
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 08:45:14 2023 +0900
+
+    로그인 로그아웃 구현
+
+commit 453f3a13fb5ce5f9896f5b85368a7284f7414ea8
+Merge: 5a612877 d6107c24
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 08:39:30 2023 +0900
+
+    로그인, 로그아웃 구현함
+
+commit d6107c24204f05d7907383945258df6b8279ba87
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 30 08:29:40 2023 +0900
+
+    README.md 에 작업내용 및 시행착오 기록
+
+commit 6618fef7d7b6ea0c6e48396e854982909ed0b231
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Thu Mar 30 02:53:41 2023 +0900
+
+    Feat: Create react components related to Profile
+
+commit bb344a9b7d85d29895a5a395563e121384efee26
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Mar 29 21:54:47 2023 +0900
+
+    .
+
+commit 1fc1173522eb05143cf7498e49e485dc2d12e28a
+Merge: c23cbbf9 2905e5e2
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 21:21:43 2023 +0900
+
+    로그인, 로그아웃 구현 완료
+
+commit c23cbbf9c8ce9415a3e1a98cebd92a96a51e3b26
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 21:12:28 2023 +0900
+
+    로그인, 로그아웃 구현 완료
+
+commit b3bdfe71eade65412734650e8ab7c91fbe6d54f6
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 19:58:57 2023 +0900
+
+    로그인시 데이터 넘어가고 오는것 확인
+
+commit 1c748a825a09694e654b6f8fd7d7f41d1420b6e5
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Mar 29 17:58:25 2023 +0900
+
+    Design: feed
+
+commit be9d2a1c385920909f0ac1129af2c8b29c8202c5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Mar 29 16:26:31 2023 +0900
+
+    edit readme
+
+commit 5a61287786be6a6faca1d7b5fe76132cedafc0f6
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 16:07:29 2023 +0900
+
+    로그인 요청 수정 중 브랜츠 변경 전 커밋
+
+commit 13cc770d7308d4b0f69af29bf7d85e995dc3642f
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Wed Mar 29 14:58:45 2023 +0900
+
+    피드 스크롤 데이터 로딩 기능추가
+
+commit ea410d62457c8bb6eb2da0f10ff4d2ec96204e56
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 13:03:20 2023 +0900
+
+    cloud DB 설정 추가(주석). 인덱스 변경
+
+commit b5d9d61ab9d4129a47052058ffc4b3ce8c48715c
+Merge: c288ce59 56d40335
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 13:03:13 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit c288ce59808c609cc8331ac5762136fc62af4ff4
+Merge: f541a2b3 e5e5fe51
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 13:02:17 2023 +0900
+
+    cloud DB 설정 추가(주석). 인덱스 변경
+
+commit 56d403355cb9f19d3115c498699b1393708f00bc
+Merge: e5e5fe51 72279788
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Mar 29 12:45:38 2023 +0900
+
+    Profile edit Images
+
+commit 7227978876ee227c0ecbabf7127f98da58c89c00
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Wed Mar 29 12:40:36 2023 +0900
+
+    Profile Images js, css
+
+commit 2905e5e2aeb1f35fffebb35ff85198acfe6f2871
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 11:32:10 2023 +0900
+
+    모달창에서 요청 코드 진행 중
+
+commit 97266dd553a050a7293a16631efb2c30f1bf4f9d
+Merge: aedbced8 f541a2b3
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 09:39:55 2023 +0900
+
+    로그인 요청 작성 전 모달 변경사항 저장
+
+commit f541a2b3f2188589893cc4287d55bc88611e41b2
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Wed Mar 29 09:36:25 2023 +0900
+
+    로그인 요청 전 모달창 저장
+
+commit e5e5fe517ca36e6a4ce437ee3c2ae87dbf96f45e
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Wed Mar 29 03:08:42 2023 +0900
+
+    little testing
+
+commit d120965bc642dd7847b21b41edebdc35752f41ee
+Merge: 83cdce9c 9acce6e9
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 23:28:34 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 83cdce9c1495fa2b5908f5733f6577c2cff4c76c
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 23:27:49 2023 +0900
+
+    수정
+
+commit 9acce6e95c833e6a3396cd9cb801ddcde8f0a82b
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Mar 28 23:26:18 2023 +0900
+
+    del test-file
+
+commit 3d7799f3edf76fbc3f18032b7f288f8ddccb104f
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 23:11:16 2023 +0900
+
+    깃그노어 수정
+
+commit b90e781893838727d690c8842fd100c4298c589b
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 22:52:13 2023 +0900
+
+    정리
+
+commit f903d35f7091e8ebd62dbe69077a251aa8d04844
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 20:05:16 2023 +0900
+
+    맵퍼파일 수정
+
+commit aedbced8629c024ca0af5728ec33eca297a95bff
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Mar 28 20:05:01 2023 +0900
+
+    react-bootstrap 으로 navbar 작업 중 실패
+
+commit fcbfce2e1179105a8d24b8d594b101a4ffb4d973
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 20:01:26 2023 +0900
+
+    깨짐 수정
+
+commit 6c85a8bc05a7c87c266949a6a32ab9b7618cca64
+Merge: 88fae13c 95a743f3
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 19:49:54 2023 +0900
+
+    피드살짝 만듬
+
+commit 88fae13c4bda2ec25c510d319f64ee3ce278c252
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 19:47:15 2023 +0900
+
+    피드살짝만듬
+
+commit 95a743f3d5eeda9508b43bb04ff9f04b5d0c2e90
+Merge: da80548f 70499026
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:29:34 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 7049902698f5dff003a3cc83bd5cd8d124dacdd3
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:28:50 2023 +0900
+
+    Profile images
+
+commit da80548f10205e2bb8f0f6dcd7710520967a6dd4
+Merge: 64343a5d 154ddead
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:26:18 2023 +0900
+
+    Profile images
+
+commit 154ddead79a2f198612f7c80e629b779cd366ef5
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:24:03 2023 +0900
+
+    Profile images
+
+commit 64343a5d6320a7330185216c9d951b0f47192334
+Merge: c8f607b1 fcbef1f8
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:06:20 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit fcbef1f8a401fef994490073d1aff1fd483e6411
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:04:24 2023 +0900
+
+    Profile images
+
+commit c5181f087f248809d48caf8c507999817894ee64
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Tue Mar 28 18:00:22 2023 +0900
+
+    Profile images
+
+commit c8f607b1cf0b0f28a0174cd90b94142be4deda33
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Mar 28 14:44:56 2023 +0900
+
+    Revert "디렉토리 정리 및 라우터 적용"
+    
+    This reverts commit 02a7fa1099850a5a352dcf3809591f09be8bd4ad.
+
+commit e9ae6fab193bdd94cfeb294563dc772e8a513734
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Mar 28 14:19:48 2023 +0900
+
+    매퍼 버그 코드 제거 및 react-bootstrap npm 추가
+
+commit 274414a7326a7963fb18c1ae05ab7f18ef34c2ca
+Merge: 02a7fa10 abb2e6a5
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Mar 28 02:58:49 2023 +0900
+
+    Merge branch 'fshrimp'
+
+commit abb2e6a515ae0fedcfe25636abd0f0e826804717
+Author: fantasyshrimp <fantasy.shrimp@gmail.com>
+Date:   Tue Mar 28 02:55:06 2023 +0900
+
+    .
+
+commit 02a7fa1099850a5a352dcf3809591f09be8bd4ad
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 02:24:51 2023 +0900
+
+    디렉토리 정리 및 라우터 적용
+
+commit e00ac1793ebf80cc30c78ab9d1088e6b99816b45
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Tue Mar 28 02:23:10 2023 +0900
+
+    디렉토리 정리 및 라우터 적용
+
+commit 16a38ba81dc48abd1ea0ff937c6a228387ced7cb
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Mar 27 18:28:56 2023 +0900
+
+    회의 내용 업데이트
+
+commit 703d633d155c438096f1706393b8a611dc3534fd
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Mar 27 17:41:21 2023 +0900
+
+    ha
+
+commit 9ad57beea7811cc87cd419f6de9d270b90a40677
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Mar 27 17:39:51 2023 +0900
+
+    5
+
+commit a90eb4dec5541bd47e8782a47700c6513c5ab855
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Mar 27 17:32:45 2023 +0900
+
+    4
+
+commit fa18a648a17d3e215f3a3e975765ffa275373c54
+Author: ohbyunghyun <960903obh@gmail.com>
+Date:   Mon Mar 27 17:11:52 2023 +0900
+
+    2023-03-27
+
+commit 48fd7e7cdedf640d8d0a62d91838c29e57dfe860
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Mar 27 17:06:16 2023 +0900
+
+    기존 html-static 버전 '윤종광' 폴더로 옮김
+
+commit 6022410083bbd24f7e2b9e2f2bc825af444075e7
+Merge: 30f38eff 9d2c2b23
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Mar 27 17:04:33 2023 +0900
+
+    Merge branch 'jk'
+
+commit 9d2c2b232e0f94916685257517c53883cbbcf973
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Mar 27 09:50:35 2023 +0900
+
+    로그인 모달창 수정
+
+commit 30f38eff3497e8ec6e47b2fbe5084f6001f8e251
+Merge: ae21dc07 3372bd2a
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sun Mar 26 01:37:43 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 3372bd2abf168d77bf5769e6b9394a49750a00c1
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sun Mar 26 01:36:49 2023 +0900
+
+    edit README
+
+commit ae21dc073460659b8197d90c43a450b67ed8eb57
+Merge: 9fa18676 126c7655
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sun Mar 26 01:30:32 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 9fa186762242b420fe1119aa6e734f96f206d0c8
+Merge: 97287010 78697146
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sun Mar 26 01:30:10 2023 +0900
+
+    Merge branch 'jiyoon'
+
+commit 786971467de60493450e0e0bb51e20c344846b96
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Sun Mar 26 01:29:57 2023 +0900
+
+    edit README
+
+commit 126c7655de1c444545b224c9d61111d121f5c54b
+Merge: b2e402ab f551310d
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 24 18:03:11 2023 +0900
+
+    Merge branch 'jk'
+
+commit f551310d6a977c93b2b8376453632a369e1a9dfc
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 24 18:01:10 2023 +0900
+
+    모달창 마진 조정
+
+commit a4da9887b45d933bd3b01b562a2806e36ae3691a
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 24 17:22:30 2023 +0900
+
+    html static 으로 수정. 모달창 변경 전
+
+commit b2e402abe9a89f0d21c78850194b518506f86435
+Merge: 9e905be2 97287010
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 24 15:22:31 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit 9e905be2b16b8c71647f9de94df10564321c7ef1
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 24 15:17:34 2023 +0900
+
+    인덱스 페이지 구성 시작
+
+commit 891108ff53a3b6345b5b7051c3d7a38825349bc1
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 23 21:58:55 2023 +0900
+
+    프로젝트 초기 적용
+
+commit 97287010dad78d41cef87157ee3283e81a9ad999
+Merge: fab396b4 3993f60b
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Mar 23 15:01:37 2023 +0900
+
+    Merge branch 'main' of https://github.com/bitcamp-finalproject/bitcamp-finalproject
+
+commit fab396b48941f1ec4358d59d4221c8f7cd6f8077
+Author: zyoonshin <dwsrh03@gmail.com>
+Date:   Thu Mar 23 15:00:32 2023 +0900
+
+    edit ReadMe
+
+commit 3993f60bf7ddf01e3092c71e4ad00f448ef4d80a
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 23 14:58:07 2023 +0900
+
+    total 폴더에 app-server 복사해서 패키지 생성함
+
+commit 2e2ee85d91f756e00eec2826101c8dddce32f69b
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Mar 21 18:14:35 2023 +0900
+
+    DB 모델 일부 수정, 포워드 엔지니어링으로 ddl 생성 및 지정, 샘플데이터 chatGPT 로 sql insert 문 작성
+
+commit 8d94866269aa7268468409af53a0f17b9f59ae5d
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 17:15:57 2023 +0900
+
+    주석 및 테이블색상추가
+
+commit d5b07060edcdc32087726ff03067554df4fe8cec
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 17:09:26 2023 +0900
+
+    주석추가
+
+commit 7e600e80ca8780529744aaede3643396b71aeefe
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 16:55:21 2023 +0900
+
+    .
+
+commit 520512fa3ed037d1f795bd7c341f99a5fe034828
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 16:31:30 2023 +0900
+
+    .
+
+commit 37b06975753b362e676379e7788aab2e22426c40
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Mar 20 16:10:15 2023 +0900
+
+    정리
+
+commit 305d32c65deecefc2aa7d5b5a16d1d5c42fc46b4
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 16:01:19 2023 +0900
+
+    .
+
+commit 64b24b8eb605858b07296f65407b481740470a0c
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 14:30:19 2023 +0900
+
+    .
+
+commit ae7e051975f06975bc827a76f9ba355107c45e9c
+Author: das7945 <das7945@naver.com>
+Date:   Mon Mar 20 12:44:13 2023 +0900
+
+    .
+
+commit 8395e33827a02f9d831ec1741b1088c4e2db666e
+Author: das7945 <das7945@naver.com>
+Date:   Sun Mar 19 22:39:42 2023 +0900
+
+    한대호
+
+commit a635051d021775c26e59f439cc4317a4ae621ed8
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 17 17:59:46 2023 +0900
+
+    DBModel 폴더 올려놨으니 git pull 해서 gradle eclipse 하세요
+
+commit 2746b465c03f72790c79a3d5fb3b25e597eb43f1
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Fri Mar 17 17:56:17 2023 +0900
+
+    DBModel 폴더 올려놨으니 git pull 해서 gradle eclipse 하세요
+
+commit 556e63171a782d6fc905f82658f76697208ef30b
+Author: das7945 <das7945@naver.com>
+Date:   Fri Mar 17 17:09:56 2023 +0900
+
+    .
+
+commit ee6674292313a8215e5b682e52258caca74b31ea
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Tue Mar 14 18:06:06 2023 +0900
+
+    3/16(목) 발표 대비 회의 내용
+
+commit 28f1a1b107e128fa8b2870b59f1ac38aa43183a3
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Mon Mar 6 18:31:31 2023 +0900
+
+    아이디어 회의 기록
+
+commit 2e4dae0f5abed4ee076d5488475d7a5c6dbbe281
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 2 18:29:57 2023 +0900
+
+    README 수정
+
+commit 6f26ce4262e72465eb3f618114caabb089b6a734
+Author: jongkwangyun <yjk0319@gmail.com>
+Date:   Thu Mar 2 18:20:02 2023 +0900
+
+    첫 아이디어 회의 기록
+
+commit f1da7806fc9963e9005584f76a18fe3e0c89e6bd
+Author: jongkwangyun <97103280+jongkwangyun@users.noreply.github.com>
+Date:   Thu Mar 2 17:56:12 2023 +0900
+
+    Initial commit

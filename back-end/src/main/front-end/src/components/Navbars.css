@@ -1,0 +1,32 @@
+.process-bar-darkmode-auth-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .navbar-sub {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-main .navbar-toggler.collapsed {
+    display: none;
+  }
+}
+
+.navbar-sub-search-container {
+  flex-basis: calc(100% - 60px);
+}
+
+/* @media (max-width: 688px) {
+  .navbar .process-bar-darkmode-auth-container {
+    position: absolute;
+    right: 60px;
+    top: 2.4px;
+  }
+} */

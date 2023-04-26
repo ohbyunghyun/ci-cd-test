@@ -1,0 +1,43 @@
+.Label {
+  color: var(--aim-text-default);
+}
+
+.short {
+  color: var(--aim-text-default);
+  width: 60px;
+}
+
+.long {
+  color: var(--aim-text-default);
+  width: 120px;
+}
+
+.img {
+  width: 100%;
+}
+
+.shortTitle {
+  color: var(--aim-text-default);
+  width: 60px;
+}
+
+.shortTitle2 {
+  padding-left: 10px;
+  color: var(--aim-text-default);
+  width: 60px;
+}
+
+.shortContext {
+  padding-right: 15px;
+  width: 50px;
+}
+
+.longTitle {
+  padding-left: 10px;
+  color: var(--aim-text-default);
+  width: 100px;
+}
+
+.longContext {
+  width: 30px;
+}

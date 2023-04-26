@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bitcamp.app.dao.VisitorDao">
+
+
+<resultMap type="bitcamp.app.vo.Visitor" id="visitorMap">
+    <id column="visitor_no" property="visitorNo"/>
+    <result column="visitor_dt" property="visitorDt"/>  
+</resultMap>
+
+<insert id="insert" parameterType="bitcamp.app.vo.Visitor" 
+        useGeneratedKeys="true" keyProperty="visitorNo" keyColumn="visitor_no">
+  INSERT INTO aim_visitor(visitor_dt)
+  VALUES (#{visitorDt})
+</insert>
+
+<select id="findByDateRange" resultMap="visitorMap" parameterType="map">
+    SELECT *
+    FROM aim_visitor
+    WHERE visitor_dt &gt;= #{start_date} AND visitor_dt &lt;= #{end_date}
+</select>
+
+</mapper>

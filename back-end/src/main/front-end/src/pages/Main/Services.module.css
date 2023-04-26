@@ -1,0 +1,36 @@
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://pbs.twimg.com/media/FTGMfjGaMAA1V-C?format=jpg&name=4096x4096");
+  background-size: cover;
+  background-position: center;
+  color: #fff !important;
+  height: 500px;
+}
+
+.services {
+  margin: 90px auto;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 1px;
+}
+
+h1:after {
+  content: "";
+  background: white;
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+.label {
+  width: 50%;
+  text-align: center;
+  color: var(--aim-text-default);
+}
+
+.img {
+  text-align: center;
+  width: 50px;
+}
+
+.option {
+  color: black;
+}

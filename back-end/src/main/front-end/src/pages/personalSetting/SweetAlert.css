@@ -1,0 +1,26 @@
+.swal2-title {
+  font-size: var(--aim-large-font-size) !important;
+  color: var(--aim-text-default) !important;
+}
+
+.swal2-popup {
+  background-color: var(--aim-base-tone) !important;
+}
+
+.swal2-confirm {
+  background-color: var(--aim-btn-primary) !important;
+  color: var(--aim-text-light) !important;
+  width: 100px;
+  margin: 0 15px;
+}
+
+.swal2-confirm:focus {
+  border: none;
+}
+
+.swal2-cancel {
+  background-color: var(--bs-secondary) !important;
+  color: var(--aim-text-light) !important;
+  width: 100px;
+  margin: 0 15px;
+}

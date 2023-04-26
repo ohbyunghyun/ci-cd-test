@@ -1,0 +1,61 @@
+.alarm-modal-backdrop {
+  background-color: var(--aim-base-alpa);
+}
+
+.alarm-modal-dialog {
+  margin-right: 160px;
+  margin-top: 55px;
+  width: 320px;
+  max-width: 320px;
+  font-size: var(--aim-small-font-size);
+}
+
+.alarm-modal-link {
+  text-decoration: none;
+  color: var(--aim-text-default);
+}
+
+.modal-header,
+.modal-footer {
+  background-color: var(--aim-base-tone);
+  border-color: var(--aim-base-tone);
+}
+
+.alarm-modal-row {
+  background-color: var(--aim-base-tone-up);
+}
+
+.alarm-modal-row:hover {
+  background-color: var(--aim-base-tone);
+}
+
+.alarm-modal-nickname:hover {
+  color: var(--aim-text-href);
+}
+
+.alarm-read-all {
+  cursor: pointer;
+}
+
+.alarm-read-all:hover,
+.alarm-read-more:hover {
+  text-decoration: underline;
+}
+
+#alarm-modal div {
+  background-color: var(--aim-base-tone-up);
+}
+
+.alarm-modal-header {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.alarm-modal-footer {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.alarm-modal-content {
+  border-radius: 0;
+}

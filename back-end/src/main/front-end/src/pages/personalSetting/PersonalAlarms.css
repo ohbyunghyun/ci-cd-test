@@ -1,0 +1,14 @@
+.alarm-info-log {
+  margin-left: 0 !important;
+  /* border-bottom: none !important; */
+  /* border-left: none !important; */
+  /* box-shadow:  !important; */
+}
+
+.alarm-info-log div:nth-child(1) {
+  width: 78% !important;
+}
+
+.alarm-info-log div:nth-child(2) {
+  width: 22% !important;
+}

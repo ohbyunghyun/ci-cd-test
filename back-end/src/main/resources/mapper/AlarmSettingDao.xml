@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bitcamp.app.dao.AlarmSettingDao">
+
+  <resultMap type="alarmSetting" id="alarmSettingMap">  
+    <id column="type_no" property="typeNo"/>
+    <result column="log_type" property="typeName"/>
+    <result column="log_description" property="description"/>
+    <result column="member_no" property="memberNo"/>
+  </resultMap>
+  
+  <insert id="insert" parameterType="alarmSetting">
+    insert into aim_alarm_setting(member_no, type_no)
+    values (#{memberNo}, #{typeNo})
+  </insert>
+  
+  <delete id="delete" parameterType="alarmSetting">
+    delete from aim_alarm_setting
+    where member_no=#{memberNo} and type_no=#{typeNo}
+  </delete>
+  
+
+  <select id="getAll" parameterType="int" resultMap="alarmSettingMap">
+    select
+      lt.type_no,
+      lt.log_type,
+      lt.log_description,
+      a.member_no
+    from aim_log_type lt
+    left join aim_alarm_setting a
+      on a.type_no = lt.type_no 
+      and a.member_no = #{memberNo}
+    where lt.type_no = 11 
+      or lt.type_no = 14 
+      or lt.type_no = 21 
+      or lt.type_no = 24 
+      or lt.type_no = 31
+    order by lt.type_no;
+  </select>
+  
+</mapper>

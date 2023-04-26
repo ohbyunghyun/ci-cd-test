@@ -1,0 +1,602 @@
+/* 반응형 시도 중
+@media screen and (min-width: 700px) {
+  #feed-modal-image {
+    display: inline-block;
+    width: 60%;
+  }
+
+  #feed-modal-content {
+    display: inline-block;
+    width: 40%;
+  }
+} */
+
+.modal-money-container {
+  cursor: pointer;
+}
+
+#feed-modal-image {
+  width: 60%;
+  height: 100%;
+  float: left;
+  padding: 1.5%;
+  /* border: 1px solid blue; */
+}
+
+#feed-modal-content {
+  width: 40%;
+  height: 100%;
+  float: right;
+  padding: 1.5% 1.5% 1.5% 0;
+  min-height: 50%;
+  /* border: 1px solid white; */
+}
+
+#feed-modal-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+  /* transform: translate(0, 3.7%); */
+}
+
+#modal-like-icon {
+  height: 20px;
+  width: 20px;
+  float: left;
+  position: absolute;
+  bottom: 25px;
+  margin-left: 15px;
+}
+
+#feed-modal-profile {
+  width: 93%;
+  height: 50px;
+  position: relative;
+  display: flex;
+}
+
+#feed-modal-propic {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  float: left;
+}
+
+#feed-modal-writer {
+  width: auto;
+  height: 4 0px;
+  margin-top: 5px;
+  margin-left: 7px;
+  text-align: left;
+  line-height: 38px;
+  float: left;
+  color: var(--aim-text-default);
+}
+
+#feed-modal-follow {
+  width: 80px;
+  height: 32px;
+  float: left;
+  margin-top: 9px;
+  margin-left: 30px;
+}
+
+#feed-modal-like {
+  border: 2px solid purple;
+  width: 80px;
+  height: 32px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 6px;
+  color: var(--aim-text-default);
+  line-height: 28px;
+  border-radius: 15px;
+}
+
+#feed-modal-setting {
+  height: 65%;
+  width: 50px;
+  margin-left: 100px;
+  margin-top: 7gpx;
+}
+
+#feed-modal-setting:hover {
+  cursor: pointer;
+}
+
+#feed-modal-originalcontent {
+  width: 95%;
+  height: 44%;
+  position: relative;
+  color: var(--aim-text-default);
+  text-align: left;
+  margin-top: 10px;
+}
+
+#feed-modal-tag {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 3px;
+  color: var(--aim-text-default);
+  text-align: left;
+}
+
+#feed-modal-t {
+  width: auto;
+  height: 7px;
+  float: left;
+  font-size: 12px;
+  margin-right: 4px;
+  margin-top: 6px;
+  color: var(--aim-text-sub);
+}
+
+#feed-modal-tagdiv {
+  width: 63%;
+  height: 75%;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-x: scroll;
+}
+
+#feed-modal-t:hover {
+  color: var(--aim-text-default);
+  cursor: pointer;
+}
+
+#feed-modal-day {
+  width: 95%;
+  height: 25px;
+  position: absolute;
+  bottom: 35px;
+  color: var(--aim-text-default);
+  text-align: right;
+}
+
+#feed-modal-commentinput {
+  width: 95%;
+  height: 45px;
+  margin-top: 10px;
+}
+
+#feed-modal-inputbox {
+  background-color: var(--aim-base-tone-up);
+  border-radius: 30px;
+  /* width: 85%; */
+  width: 100%;
+  height: 75%;
+  color: var(--aim-text-default);
+  border: 0.1px black solid;
+  float: left;
+  outline: none;
+  /* margin-left: 15px; */
+  padding-left: 10px;
+}
+
+#feed-modal-comscroll {
+  height: 38%;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#feed-modal-comment {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+#feed-modal-commentpic {
+  /* border: 1px solid blue; */
+  width: 33px;
+  height: 33px;
+  margin-top: 12px;
+  margin-left: 5px;
+  border-radius: 10px;
+  float: left;
+}
+
+#feed-modal-com {
+  width: 77%;
+  height: auto;
+  float: left;
+  color: var(--aim-text-default);
+  margin-left: 7px;
+  margin-top: 10px;
+}
+
+#feed-modal-commentwriter {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#feed-modal-comwriter {
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: 15px;
+}
+
+#feed-modal-comdt {
+  float: right;
+  height: auto;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+#feed-modal-commentcontent {
+  float: left;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+#feed-modal-commentutil {
+  height: 15px;
+  width: 100%;
+  float: left;
+  color: var(--aim-text-sub);
+  font-size: 7px;
+}
+
+#feed-modal-commentdelete {
+  float: right;
+  color: var(--aim-emphasis-red);
+}
+
+#feed-modal-commentdelete:hover {
+  cursor: pointer;
+}
+
+#feed-modal-commentreport {
+  float: right;
+}
+
+#feed-modal-commentlike {
+  float: left;
+}
+
+#feed-modal-commentheart {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+
+#feed-modal-replylike {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin-top: 1.5px;
+  margin-left: 5px;
+}
+
+#feed-modal-replylike:hover {
+  cursor: pointer;
+}
+
+#feed-modal-commentreport:hover {
+  cursor: pointer;
+}
+
+#feed-modal-comment::-webkit-scrollbar {
+  display: none;
+}
+
+#feed-modal-comscroll::-webkit-scrollbar {
+  display: none;
+}
+
+#report-main {
+  position: fixed;
+  top: 21%;
+  left: 38%;
+  width: 300px;
+  height: auto;
+  background-color: var(--aim-base-tone);
+  border: 1px solid var(--aim-border);
+  border-radius: 10px;
+  color: var(--aim-text-default);
+  z-index: 200;
+  animation: modal-show 0.1s ease-in-out;
+  padding-bottom: 10px;
+}
+
+#report-delete {
+  position: fixed;
+  top: 31%;
+  left: 38%;
+  width: 300px;
+  height: auto;
+  background-color: var(--aim-base-tone);
+  border: 1px solid var(--aim-border);
+  /* border-radius: 10px; */
+  color: var(--aim-text-default);
+  z-index: 200;
+  animation: modal-show 0.1s ease-in-out;
+}
+
+#report-title {
+  text-align: center;
+  font-size: 24px;
+  height: 13%;
+  margin-top: 22px;
+}
+
+#report-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--aim-emphasis-red);
+}
+
+#report-contentbox {
+  margin-top: 3%;
+  height: 84%;
+}
+
+#report-menu {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+#report-menuicon {
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+#report-menu:hover {
+  cursor: pointer;
+  color: var(--aim-emphasis-red);
+}
+
+#report-box {
+  height: 300px;
+}
+
+#report-text {
+  width: 90%;
+  height: 85%;
+  margin-left: 5%;
+}
+
+#report-textarea {
+  width: 100%;
+  height: 100%;
+  background-color: var(--aim-base-tone-sub);
+  color: var(--aim-text-default);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+#report-textarea:focus {
+  outline: none;
+  border: none;
+}
+
+#report-btn {
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 3%;
+  /* background-color: var(--aim-base-tone); */
+  border-radius: 20px;
+  /* color: var(--aim-emphasis-red); */
+  font-weight: bold;
+}
+
+#feed-modal-boardreport {
+  height: 15px;
+  width: 15%;
+  float: right;
+  color: var(--aim-emphasis-red);
+  font-size: 7px;
+  text-align: right;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+#feed-modal-boardreport:hover {
+  cursor: pointer;
+}
+
+#menu-textarea {
+  width: 100%;
+  height: 100%;
+  background-color: var(--aim-base-tone-sub);
+  color: var(--aim-text-sub);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+#menu-textarea:focus {
+  outline: none;
+  border: none;
+}
+
+#menu-box {
+  height: 80px;
+}
+
+#menu-btn {
+  width: 30%;
+  text-align: center;
+  margin-left: 14%;
+  /* background-color: var(--aim-base-tone); */
+  border-radius: 20px;
+  /* color: var(--aim-emphasis-red); */
+  /* font-weight: bold; */
+  float: left;
+  margin-bottom: 10px;
+}
+
+#menu-btn2 {
+  width: 30%;
+  text-align: center;
+  margin-left: 14%;
+  /* background-color: var(--aim-base-tone-sub); */
+  border-radius: 20px;
+  /* color: var(--aim-text-default); */
+  float: left;
+  margin-bottom: 30px;
+}
+
+#menu-text {
+  width: 90%;
+  height: 85%;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+#modal-money-icon {
+  height: 20px;
+  width: 20px;
+  float: left;
+  position: absolute;
+  bottom: 25px;
+  margin-left: 50px;
+}
+
+#modal-money {
+  height: 20px;
+  width: auto;
+  float: left;
+  position: absolute;
+  bottom: 28px;
+  margin-left: 75px;
+  color: #edeeef;
+  text-shadow: 1px 1px 2px var(--aim-text-sub);
+}
+
+#modal-money-icon:hover {
+  cursor: pointer;
+}
+
+#modal-like-icon:hover {
+  cursor: pointer;
+}
+
+#feed-modal-moneyinput {
+  background-color: var(--aim-base-tone);
+  border-radius: 30px;
+  width: 70%;
+  height: 30px;
+  color: var(--aim-text-default);
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: 0.1px solid var(--aim-border);
+  padding-left: 10px;
+}
+
+#feed-money-credit {
+  margin-bottom: 30px;
+  margin-right: 70px;
+  margin-top: 5px;
+  color: var(--aim-text-sub);
+}
+
+#money-btn {
+  width: 30%;
+  text-align: center;
+  margin-left: 14%;
+  /* background-color: var(--aim-base-tone-sub); */
+  border-radius: 20px;
+  /* color: var(--aim-text-href); */
+  /* font-weight: bold; */
+  float: left;
+  margin-bottom: 10px;
+}
+
+#money-btn2 {
+  width: 30%;
+  text-align: center;
+  margin-left: 14%;
+  /* background-color: var(--aim-base-tone-sub); */
+  border-radius: 20px;
+  /* color: var(--aim-text-default); */
+  float: left;
+  margin-bottom: 30px;
+}
+
+#money-main {
+  position: fixed;
+  top: 31%;
+  left: 38%;
+  width: 300px;
+  height: auto;
+  background-color: var(--aim-base-tone);
+  border: 1px solid var(--aim-border);
+  /* border-radius: 10px; */
+  color: var(--aim-text-default);
+  z-index: 200;
+  animation: modal-show 0.1s ease-in-out;
+}
+
+#feed-modal-boarddelete {
+  height: 15px;
+  width: 15%;
+  float: right;
+  color: var(--aim-emphasis-red);
+  font-size: 7px;
+  text-align: right;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+#feed-modal-boardupdate {
+  height: 15px;
+  width: 15%;
+  float: right;
+  color: var(--aim-text-sub);
+  font-size: 7px;
+  text-align: right;
+  margin-top: 8px;
+}
+
+#feed-modal-boardupdate:hover,
+#feed-modal-boarddelete:hover {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+}
+
+#modal-money-icon:hover::before {
+  /* content: "0"; */
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--aim-base-tone-sub);
+  color: var(--aim-text-default);
+  padding: 5px;
+  border-radius: 3px;
+  width: auto;
+}
+
+#nocommnet {
+  color: var(--aim-text-sub);
+  margin-top: 100px;
+  margin-right: 20px;
+}

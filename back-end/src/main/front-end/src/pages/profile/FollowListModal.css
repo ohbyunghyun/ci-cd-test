@@ -1,0 +1,70 @@
+.ReactModal__Content {
+  scrollbar-width: none;
+}
+
+.ReactModal__Content::-webkit-scrollbar {
+  display: none;
+}
+
+#point {
+  position: relative;
+  width: 100%;
+}
+
+#point-log {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+#point-log-content {
+  width: auto;
+  height: 32px;
+  color: var(--aim-text-default);
+  font-size: 20px;
+}
+
+#point-log-title {
+  width: 75%;
+  float: left;
+  height: 30px;
+}
+
+#point-log-getpoint {
+  width: 22%;
+  float: left;
+  height: auto;
+  text-align: right;
+  color: var(--aim-text-href);
+}
+
+#point-log-sendpoint {
+  width: 22%;
+  float: left;
+  height: auto;
+  text-align: right;
+  color: var(--aim-emphasis-red);
+}
+
+#point-log-time {
+  width: 35%;
+  color: var(--aim-text-sub);
+  height: 20px;
+  font-size: 12px;
+  float: left;
+}
+
+#point-log-total {
+  width: 50%;
+  color: var(--aim-text-sub);
+  height: 20px;
+  font-size: 12px;
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#profile-menu:hover {
+  cursor: pointer;
+  color: var(--aim-text-sub);
+}

@@ -1,0 +1,124 @@
+plugins {
+	id 'eclipse'
+	id 'java'
+	id 'org.springframework.boot' version '3.0.5'
+	id 'io.spring.dependency-management' version '1.1.0'
+  id "com.github.node-gradle.node" version "3.5.1" // gradle에서 npm 사용
+}
+
+// gradle을 실행하는 호스트에 node가 없을 경우를 대비해 
+// 지정된 버전의 node를 다운로드하게 만드는 설정
+// $ gradle npmSetup 을 실행하여 node 프로그램을 설치한다.
+node {
+  // version = '18.12.1'
+  // npmVersion = '8.19.2'
+  download = true
+}
+group = 'bitcamp'
+version = '0.0.1-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8' 
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+eclipse {
+    project {
+        name = "final-project"
+    }
+    jdt {  
+      sourceCompatibility = 17
+      targetCompatibility = 17
+      javaRuntimeName = "JavaSE-17"
+    }
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	  implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation ('org.springframework.boot:spring-boot-starter-web') {
+      exclude group: 'org.springframework.boot', module:'spring-boot-starter-tomcat'
+    }
+    implementation 'org.springframework.boot:spring-boot-starter-undertow'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.0'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'io.awspring.cloud:spring-cloud-starter-aws:2.4.4'
+    implementation 'org.springframework.boot:spring-boot-starter-mail:3.0.5'
+    implementation 'org.springframework:spring-context:6.0.7'
+    implementation 'org.springframework:spring-context-support:6.0.7'
+    implementation 'com.sun.mail:jakarta.mail:2.0.1'
+
+    implementation 'org.apache.opennlp:opennlp-tools:1.9.3'
+    implementation 'commons-io:commons-io:2.11.0'
+    
+    // 한대호
+    implementation 'org.hibernate:hibernate-core:6.1.7.Final'    
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+}
+
+//tasks.named('test') {
+//	useJUnitPlatform()
+//}
+
+// React build 설정
+def webappDir = "$projectDir/src/main/front-end"
+
+sourceSets {
+  main {
+    resources {
+      srcDirs = ["$webappDir/build", "$projectDir/src/main/resources"]
+    }
+  }
+}
+
+processResources {
+  dependsOn "copyWebApp"
+}
+
+
+task copyWebApp(type: Copy) {
+    dependsOn "buildReact"
+    from "$webappDir/build"
+    into "$projectDir/src/main/resources/static"
+} 
+
+task buildReact(type: Exec) {
+  dependsOn "installReact"
+  workingDir "$webappDir"
+  inputs.dir "$webappDir"
+  group = BasePlugin.BUILD_GROUP
+  if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+    commandLine 'npm.cmd', 'run-script', 'build'
+  } else {
+    commandLine 'npm', 'run-script', 'build'
+  }
+}
+
+task installReact(type: Exec) {
+  workingDir "$webappDir"
+  inputs.dir "$webappDir"
+  group = BasePlugin.BUILD_GROUP
+  if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+    commandLine "npm.cmd", "audit", "fix"
+    commandLine 'npm.cmd', 'install'
+  } else {
+    commandLine "npm", "audit", "fix"
+    commandLine 'npm', 'install'
+  }
+}

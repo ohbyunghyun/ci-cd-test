@@ -1,0 +1,45 @@
+.signup-modal-login,
+.login-modal-signup,
+.login-modal-forget-pw,
+.findpw2-modal-resend {
+  color: var(--aim-text-href);
+  cursor: pointer;
+}
+
+.signup-modal-login:hover,
+.login-modal-signup:hover,
+.login-modal-forget-pw:hover,
+.findpw2-modal-resend:hover {
+  text-decoration: underline;
+}
+
+.naver-login-container,
+.naver-login-container:hover {
+  background-color: var(--aim-fill-green);
+  width: 400px;
+  border: 1.111px solid var(--aim-fill-green);
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.naver-login-logo {
+  width: 36px;
+  height: 36px;
+  background-image: url("./../../../public/2021_Login_with_naver_guidelines_Kr/btnG_아이콘사각.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.findpw2-modal-resend-clicked {
+  color: var(--aim-text-sub);
+  cursor: default;
+}
+
+.findpw2-modal-resend-clicked:hover {
+  text-decoration: none;
+}
+
+.auth-generating {
+  color: var(--aim-text-sub);
+}

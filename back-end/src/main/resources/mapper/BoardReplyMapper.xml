@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bitcamp.app.dao.BoardReplyDAO">
+
+  <resultMap type="bitcamp.app.vo.BoardReply" id="boardReplyMap">
+    <association property="board" resultMap="boardMap"/>
+    <association property="reply" resultMap="replyMap"/>
+  </resultMap>
+
+  <resultMap id="boardMap" type="bitcamp.app.vo.Board">
+    <id column="board_no" property="boardNo"/>
+    <result column="write_dt" property="writeDt"/>
+  </resultMap>
+    
+  <resultMap id="replyMap" type="bitcamp.app.vo.Reply">
+    <id column="reply_no" property="replyNo"/>
+    <result column="write_dt" property="writeDt"/>
+  </resultMap>  
+
+<select id="getBoardCountByDate" resultType="int" parameterType="string">
+SELECT COUNT(*) as count
+FROM aim_board b
+INNER JOIN aim_member m ON b.member_no = m.member_no
+WHERE DATE(b.write_dt) = #{date}
+
+</select>
+
+<select id="getReplyCountByDate" resultType="int" parameterType="string">
+SELECT COUNT(*) as count
+FROM aim_reply r
+INNER JOIN aim_member m ON r.member_no = m.member_no
+WHERE DATE(r.write_dt) = #{date}
+
+</select>
+
+</mapper>

@@ -1,0 +1,26 @@
+#body {
+  width: 99.5%;
+  height: 62vh;
+}
+
+#big-font {
+  font-size: 150px;
+  color: var(--aim-text-default);
+}
+
+#body-sub {
+  width: 22%;
+  height: 35%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#start-btn {
+  text-align: center;
+  font-size: 24px;
+  width: 24%;
+  height: 14%;
+  margin-top: 30px;
+  border: 1px solid var(--aim-border);
+  color: var(--aim-text-default);
+}

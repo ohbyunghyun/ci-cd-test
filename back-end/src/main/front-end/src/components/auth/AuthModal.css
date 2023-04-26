@@ -1,0 +1,26 @@
+.auth-modal-backdrop {
+  background-color: var(--aim-base-alpa);
+}
+
+.auth-modal-dialog {
+  margin-right: 16px;
+  margin-top: 55px;
+  width: 150px;
+}
+
+.auth-modal-dialog-wide {
+  width: 170px;
+}
+
+.auth-modal-link {
+  color: var(--aim-text-default);
+  cursor: pointer;
+}
+
+.auth-modal-content {
+  border-radius: 0;
+}
+
+#auth-modal .modal-body {
+  background-color: var(--aim-base-tone-up);
+}

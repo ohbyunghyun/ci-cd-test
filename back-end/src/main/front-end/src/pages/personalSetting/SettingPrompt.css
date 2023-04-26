@@ -1,0 +1,45 @@
+
+#setting-type-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 15px;
+}
+
+#setting-type-btn > div {
+    width: 30px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+#setting-type-btn > [class^="selected-setting"] {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#setting-type-btn > .setting-prompt-background {
+    position: absolute;
+    width: 60px;
+}
+
+:root {
+    --slide-side-distance: 0px;
+  }
+
+
+.slide-side {
+    animation-duration: 0.3s;
+    animation-name: slideSide;
+}
+
+@keyframes slideSide {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(var(--slide-side-distance));
+    }
+}
