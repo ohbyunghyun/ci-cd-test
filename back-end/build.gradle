@@ -87,28 +87,34 @@ sourceSets {
   }
 }
 
+task installReact(type: Exec) {
+    workingDir "$webappDir"
+    group = BasePlugin.BUILD_GROUP
+    if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+        commandLine "npm.cmd", "install"
+    } else {
+        commandLine "npm", "install"
+    }
+}
+
+task buildReact(type: Exec) {
+    dependsOn "installReact"
+    workingDir "$webappDir"
+    inputs.dir "$webappDir"
+    group = BasePlugin.BUILD_GROUP
+    if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+        commandLine "npm.cmd", "run-script", "build"
+    } else {
+        commandLine "npm", "run-script", "build"
+    }
+}
+
+task copyWebApp(type: Copy) {
+    dependsOn "buildReact"
+    from "$webappDir/build"
+    into "$projectDir/src/main/resources/static"
+} 
+
 processResources {
   dependsOn "copyWebApp"
 }
-
-// npm install
-task appNpmInstall(type: NpmTask) {
-	workingDir = file("$webappDir")
-	args = ["install"]
-}
-
-// npm build
-task npmBuild(type: NpmTask) {
-	workingDir = file("$webappDir")
-	args = ["run", "build"]
-}
-
-// 빌드된 결과 이동
-task copyWebApp(type: Copy) {
-	from "front-end/build"
-	into 'build/resources/main/static/'
-}
-
-npmBuild.dependsOn appNpmInstall
-copyWebApp.dependsOn npmBuild
-compileJava.dependsOn copyWebApp
