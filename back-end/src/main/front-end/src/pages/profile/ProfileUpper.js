@@ -16,7 +16,7 @@ function ProfileUpper(props) {
   const [user, setUser] = useState();
   const openFollowingModal = () => {
     axios
-      .get("http://localhost:8080/follow/" + props.member.no)
+      .get("http://223.130.134.147/follow/" + props.member.no)
       .then((response) => {
         setFollowingList(response.data.data);
         if (response.data.data.length > 0) {
@@ -60,7 +60,7 @@ function ProfileUpper(props) {
   };
 
   axios
-    .get("http://localhost:8080/point/member/" + props.member.no)
+    .get("http://223.130.134.147/point/member/" + props.member.no)
     .then((response) => {
       setPoint(response.data);
     });
@@ -74,7 +74,7 @@ function ProfileUpper(props) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/auth/user`)
+      .get(`http://223.130.134.147/auth/user`)
       .then((response) => setUser(response.data))
       .catch((error) => console.log(error));
   }, []);

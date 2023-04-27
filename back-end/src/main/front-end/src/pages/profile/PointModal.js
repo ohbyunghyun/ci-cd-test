@@ -10,7 +10,7 @@ function PointModal(props) {
   let toPoint = props.totalpoint;
 
   useEffect(() => {
-    axios.get("http://localhost:8080/point/log").then((response) => {
+    axios.get("http://223.130.134.147/point/log").then((response) => {
       setPointLog(response.data);
     });
   }, [props.isOpen]);

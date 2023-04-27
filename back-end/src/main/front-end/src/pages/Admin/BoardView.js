@@ -17,7 +17,7 @@ function BoardView(props) {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8080/admin/board/` + no
+          `http://223.130.134.147/admin/board/` + no
         );
         setData(response.data);
       } catch (error) {
@@ -31,7 +31,7 @@ function BoardView(props) {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8080/admin/board/tag/` + no
+          `http://223.130.134.147/admin/board/tag/` + no
         );
         const tag = response.data[0].tag;
         setData((prevData) => ({
@@ -49,7 +49,7 @@ function BoardView(props) {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8080/admin/board/report/` + no
+          `http://223.130.134.147/admin/board/report/` + no
         );
         setReport(response.data);
       } catch (error) {

@@ -41,7 +41,7 @@ function AuthBtn(props) {
   useEffect(() => {
     if (currentUser !== null) {
       const fetchData = async () => {
-        axios(`http://localhost:8080/alarm/public`) //
+        axios(`http://223.130.134.147/alarm/public`) //
           .then((response) => {
             if (response.status === 200) {
               setAlarms(response.data);

@@ -7,7 +7,7 @@ function Sortbar() {
     console.log(param);
     axios
       .post(
-        "http://localhost:8080/boards/sort",
+        "http://223.130.134.147/boards/sort",
         {},
         {
           params: {
@@ -37,7 +37,7 @@ function Sortbar() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/boards/auth`)
+      .get(`http://223.130.134.147/boards/auth`)
       .then((response) => setAuth(response.data))
       .catch((error) => console.log(error));
   }, []);

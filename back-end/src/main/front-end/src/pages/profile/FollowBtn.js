@@ -7,7 +7,7 @@ function FollowBtn(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/follow/check/" + props.followerNo)
+      .get("http://223.130.134.147/follow/check/" + props.followerNo)
       .then((response) => {
         if (response.data.data === "follow") {
           setfollowState(true);
@@ -26,7 +26,7 @@ function FollowBtn(props) {
     setfollowState(!followState);
     if (followState) {
       axios
-        .delete("http://localhost:8080/follow/" + props.followerNo)
+        .delete("http://223.130.134.147/follow/" + props.followerNo)
         .then((response) => {
           if (response.status === 200 && props.updateCount !== undefined) {
             props.updateCount(-1);
@@ -34,7 +34,7 @@ function FollowBtn(props) {
         });
     } else {
       axios
-        .post("http://localhost:8080/follow", {
+        .post("http://223.130.134.147/follow", {
           followingNo: props.followingNo,
           followerNo: props.followerNo,
         })

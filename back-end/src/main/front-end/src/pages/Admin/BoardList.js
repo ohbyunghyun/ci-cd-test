@@ -26,7 +26,7 @@ function BoardList(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/admin/board")
+      .get("http://223.130.134.147/admin/board")
       .then((response) => {
         setData(response.data.data);
       })

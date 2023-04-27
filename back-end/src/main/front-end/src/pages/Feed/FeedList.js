@@ -28,7 +28,7 @@ function FeedList(props) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/auth/user`)
+      .get(`http://223.130.134.147/auth/user`)
       .then((response) => setUser(response.data))
       .catch((error) => console.log(error));
   }, []);

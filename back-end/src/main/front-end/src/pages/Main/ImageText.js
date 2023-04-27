@@ -11,7 +11,7 @@ function ImageText() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get("http://localhost:8080/boards");
+        const response = await axios.get("http://223.130.134.147/boards");
         setImage(response.data);
         setContent(response.data.contents);
         // console.log(image);

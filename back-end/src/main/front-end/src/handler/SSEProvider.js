@@ -9,7 +9,7 @@ const SSEProvider = ({ children }) => {
 
     // Create a new EventSource instance to connect to the server
     const setupEventSource = () => {
-      eventSource = new EventSource("http://localhost:8080/sse", {
+      eventSource = new EventSource("http://223.130.134.147/sse", {
         withCredentials: true,
       });
 

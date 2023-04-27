@@ -24,7 +24,7 @@ function CommentUtil(props) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/reply/islike/" + props.commentNo)
+      .get("http://223.130.134.147/reply/islike/" + props.commentNo)
       .then((response) => {
         if (response.data.data === "like") {
           setIsLike(true);
@@ -42,7 +42,7 @@ function CommentUtil(props) {
 
     if (isLike) {
       axios
-        .delete("http://localhost:8080/reply/like/" + props.commentNo)
+        .delete("http://223.130.134.147/reply/like/" + props.commentNo)
         .then((response) => {
           setLikeUpdate(!likeUpdate);
         })
@@ -52,7 +52,7 @@ function CommentUtil(props) {
     } else {
       axios
         .post(
-          "http://localhost:8080/reply/like",
+          "http://223.130.134.147/reply/like",
           {},
           {
             params: {
@@ -71,7 +71,7 @@ function CommentUtil(props) {
 
   function CommentDel() {
     axios
-      .delete(`http://localhost:8080/reply/delete/${props.commentNo}`)
+      .delete(`http://223.130.134.147/reply/delete/${props.commentNo}`)
       .then((response) => {
         if (response.data.status === "success") {
           handleSubmit();
@@ -88,7 +88,7 @@ function CommentUtil(props) {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/reply/like/${props.commentNo}`)
+      .get(`http://223.130.134.147/reply/like/${props.commentNo}`)
       .then((response) => setLikeCnt(response.data))
       .catch((error) => console.log(error));
   }, [likeUpdate]);

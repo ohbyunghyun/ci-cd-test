@@ -10,7 +10,7 @@ function FaqTitleContent({ selectedType, title }) {
     if (selectedType) {
       axios
         .get(
-          `http://localhost:8080/faqTitleContent?faq_type_no=${selectedType}`
+          `http://223.130.134.147/faqTitleContent?faq_type_no=${selectedType}`
         )
         .then((response) => {
           // console.log(response.data);

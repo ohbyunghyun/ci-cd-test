@@ -97,7 +97,7 @@ function App() {
 
   const sendVisitorData = useCallback(async () => {
     try {
-      const response = await axios.post("http://localhost:8080/visitors");
+      const response = await axios.post("http://223.130.134.147/visitors");
 
       if (response.status !== 200) {
         throw new Error(`HTTP error ${response.status}`);

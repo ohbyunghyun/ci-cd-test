@@ -23,8 +23,8 @@ function ModifyProfile(props) {
   const [nickCheckState, setNickCheckState] = useState(false);
   const [isNickDuplication, setIsNickDuplication] = useState(true);
 
-  const [information,setInformation] = useState("");
-  const [informationChageState,setInformationChageState] = useState(false);
+  const [information, setInformation] = useState("");
+  const [informationChageState, setInformationChageState] = useState(false);
 
   const [password, setPassword] = useState("");
   const [passwordConfirm, setPasswordConfirm] = useState("");
@@ -48,15 +48,18 @@ function ModifyProfile(props) {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:8080/auth/user").then((response) => {
+    axios.get("http://223.130.134.147/auth/user").then((response) => {
       if (response.data.status === "failure") {
         navigate("/");
       }
       setMemberData(response.data.data);
       setBeforeNick(response.data.data.nickname);
       setNickname(response.data.data.nickname);
-      setInformation(response.data.data.information === null ?
-         "" : response.data.data.information);
+      setInformation(
+        response.data.data.information === null
+          ? ""
+          : response.data.data.information
+      );
       setImageUrl(response.data.data.profilePhoto);
       setGender(response.data.data.gender);
       setBirthdate(response.data.data.birthDate);
@@ -84,7 +87,7 @@ function ModifyProfile(props) {
       );
       try {
         const response = await axios.put(
-          "http://localhost:8080/member/upload/profileImg",
+          "http://223.130.134.147/member/upload/profileImg",
           formData,
           {
             headers: {
@@ -209,18 +212,47 @@ function ModifyProfile(props) {
                 />
               </div>
               <div style={{ textAlign: "right" }}>{memberData.email}</div>
-              <div style={{ marginTop: "10px"}}>
-                {informationChageState 
-                ? <div style={{position: "relative"}}>
-                  <textarea placeholder="소개를 입력해주세요!"
-                    value={information}
-                    onChange={(e) => {setInformation(e.target.value)}}
+              <div style={{ marginTop: "10px" }}>
+                {informationChageState ? (
+                  <div style={{ position: "relative" }}>
+                    <textarea
+                      placeholder="소개를 입력해주세요!"
+                      value={information}
+                      onChange={(e) => {
+                        setInformation(e.target.value);
+                      }}
+                      style={{
+                        appearance: "none",
+                        WebkitAppearance: "none",
+                        MozAppearance: "none",
+                        outline: "none",
+                        resize: "none",
+                        width: "100%",
+                        height: "110px",
+                        backgroundColor: `var(--aim-base-tone)`,
+                        border: `1px solid var(--aim-border)`,
+                        borderRadius: "0.375rem",
+                        padding: "0.375rem 0.75rem",
+                        color: `var(--aim-text-default)`,
+                      }}
+                    ></textarea>
+                    <Save2Fill
+                      onClick={() => {
+                        setInformationChageState(false);
+                      }}
+                      style={{
+                        position: "absolute",
+                        right: "5px",
+                        bottom: "15px",
+                        width: "25px",
+                        height: "25px",
+                      }}
+                    />
+                  </div>
+                ) : (
+                  <div
                     style={{
-                      appearance: "none",
-                      WebkitAppearance : "none",
-                      MozAppearance: "none",
-                      outline: "none",
-                      resize: "none",
+                      position: "relative",
                       width: "100%",
                       height: "110px",
                       backgroundColor: `var(--aim-base-tone)`,
@@ -228,42 +260,25 @@ function ModifyProfile(props) {
                       borderRadius: "0.375rem",
                       padding: "0.375rem 0.75rem",
                       color: `var(--aim-text-default)`,
-                    }}></textarea>
-                  <Save2Fill onClick={() => {setInformationChageState(false)}}
-                    style={{
-                      position: "absolute",
-                      right : "5px",
-                      bottom : "15px",
-                      width: "25px",
-                      height: "25px",                    
-                    }}/> 
-                </div> 
-                : <div style={{
-                    position: "relative",
-                    width: "100%",
-                    height: "110px",
-                    backgroundColor: `var(--aim-base-tone)`,
-                    border: `1px solid var(--aim-border)`,
-                    borderRadius: "0.375rem",
-                    padding: "0.375rem 0.75rem",
-                    color: `var(--aim-text-default)`,
-                  }}>
+                    }}
+                  >
                     <p>{information}</p>
                     <PencilSquare
-                    className="profile-edit-nickname-icon"
-                    onClick={() => {
-                      setInformationChageState(true);
-                    }}
-                    style={{
-                      position: "absolute",
-                      right : "5px",
-                      bottom : "5px",
-                      width: "25px",
-                      height: "25px",                    
-                    }}/></div>}
+                      className="profile-edit-nickname-icon"
+                      onClick={() => {
+                        setInformationChageState(true);
+                      }}
+                      style={{
+                        position: "absolute",
+                        right: "5px",
+                        bottom: "5px",
+                        width: "25px",
+                        height: "25px",
+                      }}
+                    />
+                  </div>
+                )}
               </div>
-
-
             </div>
           </div>
           <div
@@ -381,7 +396,7 @@ function ModifyProfile(props) {
                 }).then((result) => {
                   if (result.isConfirmed) {
                     // 확인 버튼을 클릭하면 아래 코드 실행
-                    axios.put("http://localhost:8080/member", {
+                    axios.put("http://223.130.134.147/member", {
                       password: password,
                       gender: gender,
                       birthDate: birthdate,
@@ -481,7 +496,7 @@ function ModifyProfile(props) {
               if (nickCheckState && !isNickDuplication) {
                 axios
                   .put(
-                    "http://localhost:8080/member/nickname",
+                    "http://223.130.134.147/member/nickname",
                     {},
                     {
                       params: {
@@ -500,7 +515,7 @@ function ModifyProfile(props) {
               } else {
                 axios
                   .get(
-                    `http://localhost:8080/member/check/nickname/${nickname}`
+                    `http://223.130.134.147/member/check/nickname/${nickname}`
                   )
                   .then((response) => {
                     if (response.data.status === "failure") {
