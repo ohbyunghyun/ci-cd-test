@@ -23,7 +23,7 @@ const Visitor = (props) => {
     endDate.setDate(endDate.getDate() + 1);
 
     try {
-      const response = await axios.get("http://223.130.134.147/visitors", {
+      const response = await axios.get("../visitors", {
         params: {
           start_date: startDate.toISOString().split("T")[0],
           end_date: endDate.toISOString().split("T")[0],

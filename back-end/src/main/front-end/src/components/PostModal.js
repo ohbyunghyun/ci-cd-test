@@ -43,7 +43,7 @@ function PostModal(props) {
       setIsLoading(false);
       setIsCompleted(true);
 
-      axios("http://223.130.134.147/auth/user")
+      axios("../auth/user")
         .then((response) => {
           if (response.data.status === "success") {
             if (response.data.data.isGenerating === 1) {
@@ -65,7 +65,7 @@ function PostModal(props) {
       handleClose();
     }, 3000);
 
-    axios("http://223.130.134.147/auth/user")
+    axios("../auth/user")
       .then((response) => {
         if (response.data.status === "success") {
           if (response.data.data.isGenerating === 1) {
@@ -106,7 +106,7 @@ function PostModal(props) {
 
     axios
       .post(
-        "http://223.130.134.147/boards",
+        "../boards",
         {},
         {
           params: {

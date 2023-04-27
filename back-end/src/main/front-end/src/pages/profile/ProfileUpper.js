@@ -15,15 +15,13 @@ function ProfileUpper(props) {
   const [point, setPoint] = useState();
   const [user, setUser] = useState();
   const openFollowingModal = () => {
-    axios
-      .get("http://223.130.134.147/follow/" + props.member.no)
-      .then((response) => {
-        setFollowingList(response.data.data);
-        if (response.data.data.length > 0) {
-          setFollowingModalIsOpen(true);
-          document.body.style.overflow = "hidden";
-        }
-      });
+    axios.get("../follow/" + props.member.no).then((response) => {
+      setFollowingList(response.data.data);
+      if (response.data.data.length > 0) {
+        setFollowingModalIsOpen(true);
+        document.body.style.overflow = "hidden";
+      }
+    });
   };
   const closeFollowingModal = () => {
     setFollowingModalIsOpen(false);
@@ -59,11 +57,9 @@ function ProfileUpper(props) {
     }
   };
 
-  axios
-    .get("http://223.130.134.147/point/member/" + props.member.no)
-    .then((response) => {
-      setPoint(response.data);
-    });
+  axios.get("../point/member/" + props.member.no).then((response) => {
+    setPoint(response.data);
+  });
 
   const numberWithCommas = (number) => {
     // 천의 자리마다 , 찍기
@@ -74,7 +70,7 @@ function ProfileUpper(props) {
 
   useEffect(() => {
     axios
-      .get(`http://223.130.134.147/auth/user`)
+      .get(`../auth/user`)
       .then((response) => setUser(response.data))
       .catch((error) => console.log(error));
   }, []);

@@ -14,7 +14,7 @@ function Profile() {
 
   useEffect(() => {
     axios
-      .get("http://223.130.134.147/member/" + no)
+      .get("../member/" + no)
       .then((response) => {
         setData(response.data.data);
         setIsLoading(false);

@@ -9,7 +9,7 @@ function Searchs(props) {
     console.log("검색어: ", searchTerm);
     axios
       .post(
-        "http://223.130.134.147/boards/keyword",
+        "../boards/keyword",
         {},
         {
           params: {

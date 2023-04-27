@@ -65,7 +65,7 @@ function FindPw3Modal(props) {
 
     axios
       .put(
-        "http://223.130.134.147/member/password",
+        "../member/password",
         {},
         {
           params: {
@@ -95,7 +95,7 @@ function FindPw3Modal(props) {
 
     axios // 인증코드 캐싱 대비 변경
       .put(
-        "http://223.130.134.147/auth/findpw",
+        "../auth/findpw",
         {},
         {
           params: {

@@ -17,7 +17,7 @@ function MemberView(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://223.130.134.147/admin/` + no);
+        const response = await axios.get(`../admin/` + no);
         setData(response.data.data);
       } catch (error) {
         console.error(error);
@@ -29,9 +29,7 @@ function MemberView(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `http://223.130.134.147/admin/member/` + no
-        );
+        const response = await axios.get(`../admin/member/` + no);
         setPoint(response.data);
       } catch (error) {
         console.error(error);
@@ -46,7 +44,7 @@ function MemberView(props) {
     //data.accountState = e.target.value;
 
     axios
-      .put(`http://223.130.134.147/admin/member/${no}/accountState`, {
+      .put(`../admin/member/${no}/accountState`, {
         state: e.target.value,
       })
       .then((response) => {

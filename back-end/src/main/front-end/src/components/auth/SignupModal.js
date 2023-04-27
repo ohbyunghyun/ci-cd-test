@@ -30,7 +30,7 @@ function SignupModal(props) {
     }
 
     axios
-      .get("http://223.130.134.147/auth/checkemail", {
+      .get("../auth/checkemail", {
         params: { email: email },
       })
       .then((response) => {
@@ -75,7 +75,7 @@ function SignupModal(props) {
     }
 
     axios
-      .get("http://223.130.134.147/auth/checknickname", {
+      .get("../auth/checknickname", {
         params: { nickname: nickname },
       })
       .then((response) => {
@@ -148,7 +148,7 @@ function SignupModal(props) {
 
     axios
       .post(
-        "http://223.130.134.147/auth/signup",
+        "../auth/signup",
         {},
         {
           params: {

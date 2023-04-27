@@ -47,14 +47,12 @@ function SettingPrompt(props) {
     requestBody[Object.keys(requestBody)[1]] = selectedNo === "1" ? 2 : 1;
     //요기서 패치
     data.memberNo === 0
-      ? axios.post(`http://223.130.134.147/${settingType}`, requestBody)
+      ? axios.post(`../${settingType}`, requestBody)
       : props.isFlag
       ? axios.delete(
-          `http://223.130.134.147/${settingType}/${
-            requestBody[Object.keys(requestBody)[0]]
-          }`
+          `../${settingType}/${requestBody[Object.keys(requestBody)[0]]}`
         )
-      : axios.put(`http://223.130.134.147/${settingType}`, requestBody);
+      : axios.put(`../${settingType}`, requestBody);
 
     setSelectedValue(selectedNo === "1" ? 2 : 1); //이거 왜이렇게 늦게들어감?
   };

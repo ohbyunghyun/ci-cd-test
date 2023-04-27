@@ -16,9 +16,7 @@ function BoardView(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `http://223.130.134.147/admin/board/` + no
-        );
+        const response = await axios.get(`../admin/board/` + no);
         setData(response.data);
       } catch (error) {
         console.error(error);
@@ -30,9 +28,7 @@ function BoardView(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `http://223.130.134.147/admin/board/tag/` + no
-        );
+        const response = await axios.get(`../admin/board/tag/` + no);
         const tag = response.data[0].tag;
         setData((prevData) => ({
           ...prevData,
@@ -48,9 +44,7 @@ function BoardView(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(
-          `http://223.130.134.147/admin/board/report/` + no
-        );
+        const response = await axios.get(`../admin/board/report/` + no);
         setReport(response.data);
       } catch (error) {
         console.error(error);

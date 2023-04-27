@@ -18,13 +18,13 @@ const BoardReply = (props) => {
       const dateString = date.toISOString().split("T")[0];
 
       // 게시물 요청 정보 출력
-      const boardRequestUrl = `http://223.130.134.147/boardreply/board/${dateString}`;
+      const boardRequestUrl = `../boardreply/board/${dateString}`;
       // console.log("게시물 요청 URL:", boardRequestUrl);
       const boardResponse = await axios.get(boardRequestUrl);
       // console.log("게시물 응답 데이터:", boardResponse.data);
 
       // 댓글 요청 정보 출력
-      const replyRequestUrl = `http://223.130.134.147/boardreply/reply/${dateString}`;
+      const replyRequestUrl = `../boardreply/reply/${dateString}`;
       // console.log("댓글 요청 URL:", replyRequestUrl);
       const replyResponse = await axios.get(replyRequestUrl);
       // console.log("댓글 응답 데이터:", replyResponse.data);

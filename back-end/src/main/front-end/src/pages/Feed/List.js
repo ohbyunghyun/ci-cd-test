@@ -16,7 +16,7 @@ function List(props) {
 
   useEffect(() => {
     axios
-      .get(`http://223.130.134.147/boards/auth`)
+      .get(`../boards/auth`)
       .then((response) => setAuth(response.data))
       .catch((error) => console.log(error));
   }, []);
@@ -45,7 +45,7 @@ function List(props) {
 
   async function loadData() {
     const currentPage = Math.ceil(data.length / 10) + 1;
-    const response = await axios.get("http://223.130.134.147/boards", {
+    const response = await axios.get("../boards", {
       params: {
         currentPage: currentPage,
       },
