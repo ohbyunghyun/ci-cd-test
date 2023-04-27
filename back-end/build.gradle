@@ -77,44 +77,44 @@ dependencies {
 //}
 
 // React build 설정
-def webappDir = "$projectDir/src/main/front-end"
+// def webappDir = "$projectDir/src/main/front-end"
 
-sourceSets {
-  main {
-    resources {
-      srcDirs = ["$webappDir/build", "$projectDir/src/main/resources"]
-    }
-  }
-}
+// sourceSets {
+//   main {
+//     resources {
+//       srcDirs = ["$webappDir/build", "$projectDir/src/main/resources"]
+//     }
+//   }
+// }
 
-task installReact(type: Exec) {
-    workingDir "$webappDir"
-    group = BasePlugin.BUILD_GROUP
-    if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-        commandLine "npm.cmd", "install"
-    } else {
-        commandLine "npm", "install"
-    }
-}
+// task installReact(type: Exec) {
+//     workingDir "$webappDir"
+//     group = BasePlugin.BUILD_GROUP
+//     if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+//         commandLine "npm.cmd", "install"
+//     } else {
+//         commandLine "npm", "install"
+//     }
+// }
 
-task buildReact(type: Exec) {
-    dependsOn "installReact"
-    workingDir "$webappDir"
-    inputs.dir "$webappDir"
-    group = BasePlugin.BUILD_GROUP
-    if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-        commandLine "npm.cmd", "run-script", "build"
-    } else {
-        commandLine "npm", "run-script", "build"
-    }
-}
+// task buildReact(type: Exec) {
+//     dependsOn "installReact"
+//     workingDir "$webappDir"
+//     inputs.dir "$webappDir"
+//     group = BasePlugin.BUILD_GROUP
+//     if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+//         commandLine "npm.cmd", "run-script", "build"
+//     } else {
+//         commandLine "npm", "run-script", "build"
+//     }
+// }
 
-task copyWebApp(type: Copy) {
-    dependsOn "buildReact"
-    from "$webappDir/build"
-    into "$projectDir/src/main/resources/static"
-} 
+// task copyWebApp(type: Copy) {
+//     dependsOn "buildReact"
+//     from "$webappDir/build"
+//     into "$projectDir/src/main/resources/static"
+// } 
 
-processResources {
-  dependsOn "copyWebApp"
-}
+// processResources {
+//   dependsOn "copyWebApp"
+// }
